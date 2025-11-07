@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import barba from "@barba/core";
+// import barba from "@barba/core";
 
 export default function Preloader() {
   const router = useRouter();
