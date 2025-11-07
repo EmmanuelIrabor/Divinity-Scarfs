@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Dell/Desktop/divinity-scarfs/app/Home/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <div className=\"min-h-screen w-full bg-[url('/images/bg_one.jpg')] bg-cover bg-center\"></div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,+QAAC;QAAI,WAAU;;;;;;AAEnB","debugId":null}}]
+}

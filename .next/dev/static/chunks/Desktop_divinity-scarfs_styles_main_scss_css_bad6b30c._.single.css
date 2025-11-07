@@ -1,0 +1,85 @@
+/* [project]/Desktop/divinity-scarfs/styles/main.scss.css [app-client] (css) */
+@font-face {
+  font-family: Inter;
+  src: url("/fonts/Inter_18pt-Regular") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Comforter;
+  src: url("/fonts/Comforter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Inter, sans-serif;
+}
+
+.comforter {
+  font-family: Comforter, cursive;
+}
+
+.big-text {
+  font-size: 18rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .big-text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .big-text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .big-text {
+    font-size: 4rem;
+  }
+}
+
+button, .primary-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  padding: .75rem 1.5rem;
+  font-size: .7rem;
+  font-weight: 500;
+  transition: all .2s;
+  display: inline-block;
+}
+
+button:hover, .primary-btn:hover {
+  color: #000;
+  background-color: #0000;
+}
+
+button:active, .primary-btn:active {
+  transform: scale(.97);
+}
+
+.rounded {
+  border-radius: 9999px;
+}
+
+.blank-btn {
+  color: #000;
+  background-color: #0000;
+  font-weight: bold;
+}
+
+.navitem:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=Desktop_divinity-scarfs_styles_main_scss_css_bad6b30c._.single.css.map*/
