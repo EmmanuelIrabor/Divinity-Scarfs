@@ -1,0 +1,36 @@
+@import "colors";
+button,
+.primary-btn {
+  background-color: $color-black;
+  color: $color-white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-black;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+.rounded {
+  border-radius: 9999px;
+}
+
+.blank-btn {
+  background-color: transparent;
+  color: $color-black;
+  font-weight: bold;
+
+  // &:hover {
+  //   color: $color-white;
+  // }
+}
