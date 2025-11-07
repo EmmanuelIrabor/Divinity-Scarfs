@@ -23,7 +23,7 @@ export default function Preloader() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1
-            className="font-bold text-[20px] sm:text-[40px] text-black tracking-wide"
+            className="font-bold text-[20px] sm:text-[40px] text-black tracking-wide text-wrap: nowrap;"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
