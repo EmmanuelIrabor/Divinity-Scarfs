@@ -74,7 +74,7 @@ export default function Navbar({ isDark = false }: { isDark?: boolean }) {
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className={`fixed top-0 left-0 w-full h-screen flex flex-col items-center justify-center gap-8 text-2xl font-bold z-40 ${
+            className={`fixed -mt-40 top-0 left-0 w-full h-screen flex flex-col items-center justify-center gap-8 text-2xl font-bold z-40 ${
               isDark ? "bg-white text-black" : "bg-black text-white"
             }`}
           >
