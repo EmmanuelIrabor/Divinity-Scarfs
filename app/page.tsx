@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-// import barba from "@barba/core";
+import barba from "@barba/core";
 
 export default function Preloader() {
   const router = useRouter();
@@ -23,16 +23,16 @@ export default function Preloader() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1
-            className="font-bold text-[20px] sm:text-[40px] text-black tracking-wide text-wrap: nowrap;"
+            className="font-bold text-[20px] sm:text-[40px] text-black tracking-wide"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            DIVINITY SCARFS
+            DIVINITY SCARF
           </motion.h1>
 
           <motion.h2
-            className="comforter text-[20px] sm:text-[60px] text-black leading-none mt-2"
+            className="comforter text-[30px] sm:text-[60px] text-black leading-none mt-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
@@ -47,7 +47,7 @@ export default function Preloader() {
 
       {/* Bottom Section */}
       <motion.div
-        className="flex justify-center mb-30 lg:mb-10"
+        className="flex justify-center mb-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}

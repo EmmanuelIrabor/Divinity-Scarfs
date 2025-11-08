@@ -6,6 +6,7 @@ import { scrollTo } from "../../components/Lenis";
 import Navbar from "../../components/Navbar";
 import Brandlabels from "@/components/ui/Brandlabels";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const scarves = [
   "/images/scarf_one.png",
@@ -15,6 +16,7 @@ const scarves = [
 ];
 
 export default function Home() {
+  const router = useRouter();
   useEffect(() => {
     // Initialize Lenis
     const lenis = new Lenis({
@@ -70,7 +72,9 @@ export default function Home() {
       <Brandlabels />
 
       <div className="hidden xl:flex justify-end px-10 mt-17 mb-5">
-        <button className="primary-btn">Shop Now</button>
+        <button className="primary-btn" onClick={() => router.push("/Shop")}>
+          Shop Now
+        </button>
       </div>
 
       <div id="home-scarfs" className="overflow-hidden w-full mt-10 xl:mt-0">
@@ -105,7 +109,9 @@ export default function Home() {
       </div>
 
       <div className="xl:hidden absolute bottom-0 left-1/2 -translate-x-1/2">
-        <button className="primary-btn">Shop Now</button>
+        <button className="primary-btn" onClick={() => router.push("/Shop")}>
+          Shop Now
+        </button>
       </div>
     </div>
   );

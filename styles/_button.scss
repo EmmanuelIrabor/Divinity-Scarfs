@@ -21,6 +21,48 @@ button,
   }
 }
 
+.secondary-btn {
+  background-color: $color-white;
+  color: $color-black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-black;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+.alt-btn {
+  background-color: $color-alt;
+  color: $color-black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-black;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
 .rounded {
   border-radius: 9999px;
 }
@@ -30,7 +72,21 @@ button,
   color: $color-black;
   font-weight: bold;
 
-  // &:hover {
-  //   color: $color-white;
-  // }
+  &:hover {
+    color: $color-white;
+  }
+
+  &--white {
+    color: $color-white;
+    background-color: transparent;
+  }
+  &.underline {
+    text-decoration: underline;
+  }
+}
+
+.unset {
+  all: unset; // wipes out all inherited and default styles
+  display: inline; // keeps text-like behavior (optional)
+  cursor: pointer;
 }

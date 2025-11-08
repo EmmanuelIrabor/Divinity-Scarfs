@@ -1,4 +1,5 @@
 @import "mixins";
+@import "colors";
 
 body {
   font-family: "Inter", sans-serif;
@@ -14,6 +15,9 @@ body {
 .comforter {
   font-family: "Comforter", cursive;
 }
+.barcode {
+  font-family: "LibraBarcode128", monospace;
+}
 .big-text {
   font-size: 18rem;
   font-weight: 700;
@@ -27,4 +31,22 @@ body {
   @include respond(lg) {
     font-size: 4rem;
   }
+}
+
+.mid-text {
+  font-size: 6rem;
+  font-weight: 700;
+
+  @include respond(sm) {
+    font-size: 2rem;
+  }
+  @include respond(md) {
+    font-size: 2rem;
+  }
+  @include respond(lg) {
+    font-size: 2rem;
+  }
+}
+.text-charcoal {
+  color: $colors-charcoal;
 }
