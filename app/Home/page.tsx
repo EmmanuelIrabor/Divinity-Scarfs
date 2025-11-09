@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen w-full bg-[url('/images/bg_one.jpg')] bg-cover bg-center"
+      className="min-h-screen w-full"
       data-barba="container"
       data-barba-namespace="home"
     >
@@ -93,7 +93,7 @@ export default function Home() {
               key={idx}
               src={src}
               alt={`Scarf ${idx + 1}`}
-              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px]"
+              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] cursor-pointer"
               onClick={() => router.push("/Shop")}
             />
           ))}
@@ -103,7 +103,7 @@ export default function Home() {
               key={idx + scarves.length}
               src={src}
               alt={`Scarf ${idx + 1}`}
-              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px]"
+              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] cursor-pointer"
               onClick={() => router.push("/Shop")}
             />
           ))}

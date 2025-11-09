@@ -1,10 +1,15 @@
 "use client";
 import Navbar from "@/components/Navbar";
+// import { useEffect } from "react";
+// import CartIndicator from "@/components/ui/CartIndicator";
+import { useRouter } from "next/navigation";
 import { CaretLeft, ArrowCircleLeft, ArrowCircleRight } from "phosphor-react";
 export default function ScarfPage() {
+  const router = useRouter();
+
   return (
     <div
-      className="min-h-screen w-full bg-[url('/images/bg_one.jpg')] bg-cover bg-center"
+      className="min-h-screen w-full"
       data-barba="container"
       data-barba-namespace="shop-scarf"
     >
@@ -13,7 +18,10 @@ export default function ScarfPage() {
       <div className="hidden xl:block">
         <div className="flex flex-col lg:flex-row w-full px-8 gap-10 lg:gap-20">
           <div className="flex flex-col items-center lg:items-start flex-1">
-            <button className="blank-btn p-0 m-0 mb-10">
+            <button
+              className="blank-btn p-0 m-0 mb-10"
+              onClick={() => router.push("/Shop")}
+            >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
                 <CaretLeft weight="bold" /> Back to Shop
               </div>
@@ -81,7 +89,10 @@ export default function ScarfPage() {
 
       <div className="block xl:hidden px-6 py-15">
         <div className="flex flex-col items-center">
-          <button className="blank-btn p-0 m-0">
+          <button
+            className="blank-btn p-0 m-0"
+            onClick={() => router.push("/Shop")}
+          >
             <div className="flex items-center gap-1 p-0 m-0 -mx-6">
               <CaretLeft weight="bold" /> Back to Shop
             </div>
@@ -90,12 +101,12 @@ export default function ScarfPage() {
             Paris Roque Scarf
           </p>
           <img
-            className="w-[400px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px] -mt-10"
+            className="w-[300px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px] -mt-10"
             src="/images/scarf_three.png"
             alt=""
           />
         </div>
-        <div className="flex flex-row gap-10 items-end -mt-10">
+        <div className="flex flex-row gap-10 items-end -mt-5">
           <div>
             <p className="text-lg text-black font-bold">$490</p>
 
@@ -154,12 +165,24 @@ export default function ScarfPage() {
       </div>
 
       <div className="hidden xl:flex justify-end px-8 mt-5">
-        <button className="secondary-btn font-bold">CART ( 0 )</button>
+        <button
+          className="secondary-btn font-bold"
+          onClick={() => router.push("/Cart")}
+        >
+          CART ( 0 )
+        </button>
       </div>
 
-      <div className="xl:hidden fixed bottom-0 left-1/2 -translate-x-1/2 z-50">
-        <button className="secondary-btn font-bold">CART ( 0 )</button>
+      <div className="xl:hidden fixed bottom-0 left-1/2 -translate-x-1/2">
+        <button
+          className="secondary-btn font-bold"
+          onClick={() => router.push("/Cart")}
+        >
+          CART ( 0 )
+        </button>
       </div>
+
+      {/* <CartIndicator /> */}
     </div>
   );
 }

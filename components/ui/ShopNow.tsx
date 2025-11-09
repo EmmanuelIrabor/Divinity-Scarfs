@@ -1,5 +1,5 @@
 import { useRouter } from "next/navigation";
-export default function CartIndicator() {
+export default function ShopNow() {
   const router = useRouter();
   return (
     <div
@@ -7,8 +7,8 @@ export default function CartIndicator() {
     xl:static xl:translate-x-0 xl:bottom-auto xl:left-auto
     xl:flex xl:justify-end xl:px-40 xl:mt-12 xl:mb-0"
     >
-      <button className="secondary-btn" onClick={() => router.push("/Cart")}>
-        CART ( 0 )
+      <button className="primary-btn" onClick={() => router.push("/Shop")}>
+        Shop Now
       </button>
     </div>
   );

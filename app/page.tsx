@@ -7,7 +7,7 @@ export default function Preloader() {
   const router = useRouter();
   return (
     <div
-      className="min-h-screen w-full flex flex-col justify-between bg-[url('/images/bg_one.jpg')] bg-cover bg-center"
+      className="min-h-screen w-full flex flex-col justify-between"
       data-barba="container"
       data-barba-namespace="preloader"
     >
@@ -53,7 +53,7 @@ export default function Preloader() {
         transition={{ delay: 1.2, duration: 0.8 }}
       >
         <button
-          className="primary-btn rounded -mt-20"
+          className="primary-btn rounded"
           onClick={() => router.push("/Home")}
         >
           Explore

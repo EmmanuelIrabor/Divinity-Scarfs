@@ -30,7 +30,7 @@ export default function ShopScarf({
         className="w-[300px] lg:w-[300px] xl:w-[400px] 2xl:w-[400px]"
       />
 
-      <div className="flex flex-col gap-2 mx-6 lg:mx-10">
+      <div className="flex flex-col gap-2 mx-6 lg:mx-10 w-full">
         <p className="font-bold text-xs">{name}</p>
         <p className="font-thin text-xs">{dimension}</p>
         <p className="text-xs">${price}</p>

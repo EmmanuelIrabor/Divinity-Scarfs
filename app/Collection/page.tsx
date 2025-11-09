@@ -2,11 +2,12 @@
 import Navbar from "@/components/Navbar";
 import { ArrowCircleLeft, ArrowCircleRight } from "phosphor-react";
 import { useRouter } from "next/navigation";
+import ShopNow from "@/components/ui/ShopNow";
 export default function Collection() {
   const router = useRouter();
   return (
     <div
-      className="min-h-screen w-full bg-[url('/images/bg_one.jpg')] bg-cover bg-center"
+      className="min-h-screen w-full"
       data-barba="container"
       data-barba-namespace="shop"
     >
@@ -16,7 +17,7 @@ export default function Collection() {
         COLLECTION
       </h1>
 
-      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-10 mb-10">
+      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10">
         <div className="flex flex-col">
           <h5 className="font-bold text-black text-xl">Paris Roque Scarf</h5>
           <p className="text-black pr-10 xl:pr-120">
@@ -65,16 +66,8 @@ export default function Collection() {
           </div>
         </div>
       </div>
-      <div className="hidden xl:flex justify-end px-40 mt-12 mb-0">
-        <button className="primary-btn" onClick={() => router.push("/Shop")}>
-          Shop Now
-        </button>
-      </div>
-      <div className="xl:hidden fixed bottom-0 left-1/2 -translate-x-1/2">
-        <button className="primary-btn" onClick={() => router.push("/Shop")}>
-          Shop Now
-        </button>
-      </div>
+      {/*  */}
+      <ShopNow />
     </div>
   );
 }

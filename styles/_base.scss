@@ -11,6 +11,12 @@ body {
   //   margin: 0;
   //   padding: 0;
   -webkit-font-smoothing: antialiased;
+  background-image: url("/images/bg_one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body.bg-two {
+  background-image: url("/images/bg_two.jpg");
 }
 .comforter {
   font-family: "Comforter", cursive;
