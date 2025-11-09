@@ -6,6 +6,7 @@ import ShopScarf from "@/components/ui/Shopscarf";
 import { motion } from "framer-motion";
 import CartIndicator from "@/components/ui/CartIndicator";
 import BackgroundTwo from "@/components/BackgroundTwo";
+import NewsLetter from "@/components/NewsLetter";
 
 export default function Shop() {
   return (
@@ -27,7 +28,18 @@ export default function Shop() {
           <button className="secondary-btn rounded">
             <div className="flex gap-2 items-center p-0 m-0 justify-center">
               {" "}
-              PURCHASE COLLECTION <StarFour weight="fill" />
+              PURCHASE COLLECTION{" "}
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 3,
+                  ease: "linear",
+                }}
+                className="inline-block"
+              >
+                <StarFour weight="fill" />
+              </motion.div>
             </div>
           </button>
         </div>
@@ -68,7 +80,18 @@ export default function Shop() {
             <a className="font-bold" href="">
               <div className="flex gap-2 items-center p-0 m-0 justify-center mt-10 mx-10 cursor-pointer text-[0.6rem]">
                 {" "}
-                PURCHASE COLLECTION <StarFour weight="fill" />
+                PURCHASE COLLECTION{" "}
+                <motion.div
+                  animate={{ rotate: 360 }}
+                  transition={{
+                    repeat: Infinity,
+                    duration: 3,
+                    ease: "linear",
+                  }}
+                  className="inline-block"
+                >
+                  <StarFour weight="fill" />
+                </motion.div>
               </div>
             </a>
           </div>
@@ -83,6 +106,7 @@ export default function Shop() {
           <CartIndicator />
         </div>
       </div>
+      <NewsLetter />
     </>
   );
 }

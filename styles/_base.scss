@@ -18,6 +18,9 @@ body {
 body.bg-two {
   background-image: url("/images/bg_two.jpg");
 }
+body.bg-about {
+  background-image: url("/images/bg_about.jpg");
+}
 .comforter {
   font-family: "Comforter", cursive;
 }
@@ -54,5 +57,5 @@ body.bg-two {
   }
 }
 .text-charcoal {
-  color: $colors-charcoal;
+  color: $color-charcoal;
 }

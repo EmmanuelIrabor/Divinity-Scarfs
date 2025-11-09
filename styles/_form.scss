@@ -1,0 +1,45 @@
+.input-field {
+  border: 1px solid $color-black;
+  background: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.5rem;
+  color: $color-black;
+
+  &:focus {
+    border-color: $color-alt;
+    outline: none;
+    box-shadow: 0 0 5px rgba($color-alt, 0.5);
+  }
+}
+
+.input-field__control {
+  border: 1px solid $color-black !important;
+  background: none !important;
+  border-radius: 4px !important;
+  font-size: 0.8rem !important;
+  padding: 0.4rem 0.5rem !important;
+  box-shadow: none !important;
+  color: $color-black !important;
+  cursor: pointer !important;
+
+  &:hover {
+    border-color: $color-alt !important;
+  }
+}
+
+.input-field__placeholder {
+  color: $color-black !important;
+  opacity: 0.6;
+}
+
+.input-field__single-value {
+  color: $color-black !important;
+}
+
+.input-field__control--is-focused {
+  border-color: $color-alt !important;
+  box-shadow: 0 0 5px rgba($color-alt, 0.5) !important;
+}

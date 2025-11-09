@@ -80,13 +80,18 @@ button,
     color: $color-white;
     background-color: transparent;
   }
+
+  &--black {
+    color: $color-black;
+    background-color: transparent;
+  }
   &.underline {
     text-decoration: underline;
   }
 }
 
 .unset {
-  all: unset; // wipes out all inherited and default styles
-  display: inline; // keeps text-like behavior (optional)
+  all: unset;
+  display: inline;
   cursor: pointer;
 }
