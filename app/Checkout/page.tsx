@@ -10,7 +10,7 @@ export default function Checkout() {
       data-barba="container"
       data-barba-namespace="checkout"
     >
-      <div className="flex flex-col lg:flex-row lg:justify-between mt-5">
+      <div className="flex flex-col md:gap-25 md:flex-row lg:justify-between mt-5">
         <div className="flex flex-col">
           <button
             className="blank-btn--black unset"
@@ -25,21 +25,21 @@ export default function Checkout() {
             Fill in your delivery details
           </p>
           <div className="mt-5">
-            <div className="double-inputs--checkout flex flex-row gap-5">
+            <div className="double-inputs--checkout flex flex-row items-center gap-5">
               <Input label="First Name" name="firstName" />
               <Input label="Last Name" name="lastName" />
             </div>
-            <div className="double-inputs--checkout flex flex-row gap-5 mt-5">
+            <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
               <Input label="Email" name="email" />
               <Input label="PhoneNumber" name="phone number" />
             </div>
 
-            <div className="double-inputs--checkout flex flex-row gap-5 mt-5">
+            <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
               <Input label="Address" name="address" />
               <Input label="Zip Code" name="zipcode" />
             </div>
 
-            <div className="flex flex-row gap-2 mt-5">
+            <div className="flex flex-row gap-2 mt-5 items-center">
               <div className="mx-2 mt-5 flex flex-col w-39">
                 <label className="text-black text-xs mb-2">Country</label>
                 <select className="input-field" name="Country" id="">
@@ -62,7 +62,7 @@ export default function Checkout() {
           </div>
         </div>
         <div className="flex flex-col mt-10 lg:mt-5">
-          <div className="text-left">
+          <div className="text-center">
             <h1 className="text-xl font-bold text-black">ITEMS(S)</h1>
             <p className="text-black comforter">1 Paris Roque Scarf</p>
           </div>
