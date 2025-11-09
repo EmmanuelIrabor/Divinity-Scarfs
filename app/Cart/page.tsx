@@ -17,7 +17,10 @@ export default function Cart() {
       >
         <div className="flex flex-row justify-between items-center">
           <h4 className="font-bold">MY CART</h4>
-          <button className="blank-btn--white unset">
+          <button
+            className="blank-btn--white unset"
+            onClick={() => router.push("/Shop")}
+          >
             <X size={32} />
           </button>
         </div>

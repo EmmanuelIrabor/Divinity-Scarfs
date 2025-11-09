@@ -18,8 +18,8 @@ export default function Input({
 //   placeholder,
 InputProps) {
   return (
-    <div className="mx-2 input-container mt-5 flex flex-col w-50">
-      <label className="text-black text-md mb-2">{label}</label>
+    <div className="mx-2 input-container mt-5 flex flex-col w-60">
+      <label className="text-black text-md mb-2 text-xs">{label}</label>
       <input
         type={type}
         name={name}

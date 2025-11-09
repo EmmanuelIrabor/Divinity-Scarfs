@@ -1,7 +1,9 @@
 "use client";
 import Input from "@/components/ui/Input";
 import { CaretLeft } from "phosphor-react";
+import { useRouter } from "next/navigation";
 export default function Checkout() {
+  const router = useRouter();
   return (
     <div
       className="min-h-screen w-full px-8"
@@ -10,13 +12,16 @@ export default function Checkout() {
     >
       <div className="flex flex-col lg:flex-row lg:justify-between mt-5">
         <div className="flex flex-col">
-          <button className="blank-btn--black unset">
+          <button
+            className="blank-btn--black unset"
+            onClick={() => router.push("/Cart")}
+          >
             <div className="flex items-center gap-1 font-bold text-xl text-black">
               <CaretLeft size={15} />
               BACK TO CART
             </div>
           </button>
-          <p className="text-xs text-black mx-2">
+          <p className="text-xs text-charcoal mx-4">
             Fill in your delivery details
           </p>
           <div className="mt-5">
@@ -35,20 +40,20 @@ export default function Checkout() {
             </div>
 
             <div className="flex flex-row gap-2 mt-5">
-              <div className="mx-2 mt-5 flex flex-col w-32">
-                <label className="text-black text-md mb-2">Country</label>
+              <div className="mx-2 mt-5 flex flex-col w-39">
+                <label className="text-black text-xs mb-2">Country</label>
                 <select className="input-field" name="Country" id="">
                   <option value="">Nigeria</option>
                 </select>
               </div>
-              <div className="mx-2 mt-5 flex flex-col w-32">
-                <label className="text-black text-md mb-2">State</label>
+              <div className="mx-2 mt-5 flex flex-col w-39">
+                <label className="text-black text-xs mb-2">State</label>
                 <select className="input-field" name="State" id="">
                   <option value="">Lagos</option>
                 </select>
               </div>
-              <div className="mx-2 mt-5 flex flex-col w-32">
-                <label className="text-black text-md mb-2">City</label>
+              <div className="mx-2 mt-5 flex flex-col w-39">
+                <label className="text-black text-xs mb-2">City</label>
                 <select className="input-field" name="City" id="">
                   <option value="">Ikeja</option>
                 </select>
