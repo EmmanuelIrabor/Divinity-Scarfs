@@ -47,7 +47,7 @@ export default function Preloader() {
 
       {/* Bottom Section */}
       <motion.div
-        className="flex justify-center mb-10"
+        className="flex justify-center mb-20 xl:mb-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}

@@ -87,16 +87,27 @@ export default function ScarfPage() {
         </div>
       </div>
 
-      <div className="block xl:hidden px-6 py-15">
+      <div className="flex items-center justify-start  xl:hidden px-3 relative top-6">
+        <button
+          className="blank-btn p-0 m-0"
+          onClick={() => router.push("/Shop")}
+        >
+          <div className="flex items-center gap-1 p-0 m-0 -mx-6">
+            <CaretLeft weight="bold" /> Back to Shop
+          </div>
+        </button>
+      </div>
+
+      <div className="block xl:hidden px-6 py-20">
         <div className="flex flex-col items-center">
-          <button
+          {/* <button
             className="blank-btn p-0 m-0"
             onClick={() => router.push("/Shop")}
           >
             <div className="flex items-center gap-1 p-0 m-0 -mx-6">
               <CaretLeft weight="bold" /> Back to Shop
             </div>
-          </button>
+          </button> */}
           <p className="comforter text-black text-[2rem] text-center">
             Paris Roque Scarf
           </p>
