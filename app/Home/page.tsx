@@ -94,6 +94,7 @@ export default function Home() {
               src={src}
               alt={`Scarf ${idx + 1}`}
               className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px]"
+              onClick={() => router.push("/Shop")}
             />
           ))}
           {/* duplicate for seamless loop */}
@@ -103,6 +104,7 @@ export default function Home() {
               src={src}
               alt={`Scarf ${idx + 1}`}
               className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px]"
+              onClick={() => router.push("/Shop")}
             />
           ))}
         </motion.div>

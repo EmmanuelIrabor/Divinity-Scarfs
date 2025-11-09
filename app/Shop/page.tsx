@@ -18,7 +18,7 @@ export default function Shop() {
         SHOP
       </h1>
 
-      <div className="flex xl:hidden justify-center mt-3 mb-5">
+      <div className="flex xl:hidden justify-center mt-2 mb-5">
         <button className="secondary-btn rounded">
           <div className="flex gap-2 items-center p-0 m-0 justify-center">
             {" "}
@@ -72,7 +72,7 @@ export default function Shop() {
           <button className="secondary-btn font-bold">CART ( 0 )</button>
         </div>
 
-        <div className="xl:hidden absolute bottom-0 left-1/2 -translate-x-1/2">
+        <div className="xl:hidden fixed bottom-0 left-1/2 -translate-x-1/2">
           <button className="secondary-btn font-bold">CART ( 0 )</button>
         </div>
       </div>

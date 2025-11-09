@@ -51,7 +51,7 @@ export default function Collection() {
             alt=""
           />
 
-          <div className="xl:hidden flex flex-col gap-0 justify-self-end ">
+          <div className="xl:hidden flex flex-col gap-0 justify-self-end">
             <button className="blank-btn p-0 m-0">
               <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
                 Next <ArrowCircleRight weight="bold" />
@@ -70,7 +70,7 @@ export default function Collection() {
           Shop Now
         </button>
       </div>
-      <div className="xl:hidden absolute bottom-0 left-1/2 -translate-x-1/2">
+      <div className="xl:hidden fixed bottom-0 left-1/2 -translate-x-1/2">
         <button className="primary-btn" onClick={() => router.push("/Shop")}>
           Shop Now
         </button>

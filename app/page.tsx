@@ -53,7 +53,7 @@ export default function Preloader() {
         transition={{ delay: 1.2, duration: 0.8 }}
       >
         <button
-          className="primary-btn rounded"
+          className="primary-btn rounded -mt-20"
           onClick={() => router.push("/Home")}
         >
           Explore
