@@ -31,11 +31,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
     animate: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: 20 },
   },
-  "home->cart": {
-    initial: { opacity: 0, x: 20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -20 },
-  },
+  // "home->cart": {
+  //   initial: { opacity: 0, x: 20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: -20 },
+  // },
 
   // ========== SHOP PAGE TRANSITIONS ==========
   "shop->home": {
@@ -63,11 +63,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
     animate: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: -20 },
   },
-  "shop->cart": {
-    initial: { opacity: 0, x: 20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -20 },
-  },
+  // "shop->cart": {
+  //   initial: { opacity: 0, x: 20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: -20 },
+  // },
   "shop->checkout": {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -110,11 +110,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
     animate: { opacity: 1, x: 0 },
     exit: { opacity: 0, x: 20 },
   },
-  "collection->cart": {
-    initial: { opacity: 0, x: 20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -20 },
-  },
+  // "collection->cart": {
+  //   initial: { opacity: 0, x: 20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: -20 },
+  // },
 
   // ========== MORE PAGE TRANSITIONS ==========
   "more->home": {
@@ -220,11 +220,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
   },
 
   // ========== CHECKOUT PAGE TRANSITIONS ==========
-  "checkout->cart": {
-    initial: { opacity: 0, x: -20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: 20 },
-  },
+  // "checkout->cart": {
+  //   initial: { opacity: 0, x: -20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: 20 },
+  // },
   "checkout->shop": {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -259,11 +259,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
     animate: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: -20 },
   },
-  "shopscarf->cart": {
-    initial: { opacity: 0, x: 20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -20 },
-  },
+  // "shopscarf->cart": {
+  //   initial: { opacity: 0, x: 20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: -20 },
+  // },
 
   // ========== SHOP/COLLECTION PAGE TRANSITIONS ==========
   "shopcollection->shop": {
@@ -276,11 +276,11 @@ export const routeAnimations: { [key: string]: RouteAnimation } = {
     animate: { opacity: 1, y: 0 },
     exit: { opacity: 0, y: 20 },
   },
-  "shopcollection->cart": {
-    initial: { opacity: 0, x: 20 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -20 },
-  },
+  // "shopcollection->cart": {
+  //   initial: { opacity: 0, x: 20 },
+  //   animate: { opacity: 1, x: 0 },
+  //   exit: { opacity: 0, x: -20 },
+  // },
 };
 
 export const defaultAnimation: RouteAnimation = {

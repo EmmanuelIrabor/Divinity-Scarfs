@@ -3,21 +3,29 @@ import { X, Lightning } from "phosphor-react";
 import BackgroundTwo from "@/components/BackgroundTwo";
 import { useRouter } from "next/navigation";
 import CartItem from "@/components/ui/CartItem";
+import { useEffect } from "react";
 
 export default function Cart() {
   const router = useRouter();
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, []);
 
   return (
     <>
       <BackgroundTwo />
 
+      {/* Add overflow-hidden to prevent any horizontal scroll */}
       <div
-        className="min-h-screen w-full flex flex-col px-5 py-10 relative"
+        className="min-h-screen w-full overflow-x-hidden flex flex-col px-5 py-10 relative"
         data-barba="container"
         data-barba-namespace="cart"
       >
         {/* Header */}
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-row justify-between items-center w-full">
           <h4 className="font-bold">MY CART</h4>
           <button
             className="blank-btn--white unset"
@@ -27,8 +35,8 @@ export default function Cart() {
           </button>
         </div>
 
-        {/* Cart Items */}
-        <div className="flex-1 overflow-y-auto mt-0 pb-40">
+        {/* Cart Items - Ensure no horizontal overflow */}
+        <div className="overflow-y-auto overflow-x-hidden mt-0 pb-40 w-full">
           <CartItem
             imageSrc="/images/scarf_three.png"
             name="Paris Qui Roque Scarf #1"
@@ -41,7 +49,7 @@ export default function Cart() {
         </div>
 
         {/* Checkout Section */}
-        <div className="sticky bottom-0 z-20 bg-white/10 backdrop-blur-md px-6 py-6 border-t border-white/10">
+        <div className="sticky bottom-0 z-20 bg-white/10 backdrop-blur-md px-6 py-6 border-t border-white/10 w-full">
           <div className="border-b border-dotted border-gray-400 w-full mb-6"></div>
 
           <div className="flex flex-row justify-between">

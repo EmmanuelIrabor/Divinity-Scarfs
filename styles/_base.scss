@@ -14,6 +14,7 @@ body {
   background-image: url("/images/bg_one.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 body.bg-two {
   background-image: url("/images/bg_two.jpg");
