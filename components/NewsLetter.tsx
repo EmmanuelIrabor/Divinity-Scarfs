@@ -1,10 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "phosphor-react";
 
 export default function NewsLetter() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Delay showing the modal (e.g., 2.5 seconds after page load)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 2500); // adjust this delay as you like (milliseconds)
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <AnimatePresence>
@@ -14,7 +22,7 @@ export default function NewsLetter() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
           transition={{ type: "spring", stiffness: 80, damping: 15 }}
-          className="fixed inset-0 flex items-center justify-center z-50"
+          className="fixed inset-0 flex items-center justify-center z-50 bg-black/30 backdrop-blur-sm w-full"
         >
           <div className="relative flex flex-row bg-gradient-to-r from-[#A2B0ED] to-[#DDDDDD] shadow-xl w-[90%] max-w-2xl overflow-hidden">
             {/* Close button */}
@@ -40,7 +48,7 @@ export default function NewsLetter() {
               </button>
             </div>
 
-            {/* Image section - hidden on mobile */}
+            {/* Image section */}
             <div className="hidden md:flex w-[40%] bg-white/10 items-center justify-center">
               <img
                 src="/images/black_king.png"
@@ -54,3 +62,60 @@ export default function NewsLetter() {
     </AnimatePresence>
   );
 }
+
+// "use client";
+// import { useState } from "react";
+// import { motion, AnimatePresence } from "framer-motion";
+// import { X } from "phosphor-react";
+
+// export default function NewsLetter() {
+//   const [isOpen, setIsOpen] = useState(true);
+
+//   return (
+//     <AnimatePresence>
+//       {isOpen && (
+//         <motion.div
+//           initial={{ y: 100, opacity: 0 }}
+//           animate={{ y: 0, opacity: 1 }}
+//           exit={{ y: 100, opacity: 0 }}
+//           transition={{ type: "spring", stiffness: 80, damping: 15 }}
+//           className="fixed inset-0 flex items-center justify-center z-50"
+//         >
+//           <div className="relative flex flex-row bg-gradient-to-r from-[#A2B0ED] to-[#DDDDDD] shadow-xl w-[90%] max-w-2xl overflow-hidden">
+//             {/* Close button */}
+//             <button
+//               onClick={() => setIsOpen(false)}
+//               className="blank-btn absolute top-3 left-3 text-black hover:opacity-70 transition"
+//             >
+//               <X size={22} />
+//             </button>
+
+//             {/* Text and input section */}
+//             <div className="flex flex-col justify-center p-8 flex-1">
+//               <h1 className="text-black text-xl font-bold mb-4 leading-snug mt-10 md:mt-0">
+//                 SUBSCRIBE TO OUR NEWSLETTER AND STAY UPDATED
+//               </h1>
+//               <input
+//                 className="border border-black text-black outline-none px-3 py-2 mt-2 placeholder-gray-700"
+//                 type="text"
+//                 placeholder="EMAIL"
+//               />
+//               <button className="bg-black text-white font-semibold py-2 mt-3 hover:bg-gray-800 transition mb-10 md:mb-0">
+//                 SUBSCRIBE
+//               </button>
+//             </div>
+
+//             {/* Image section - hidden on mobile */}
+//             <div className="hidden md:flex w-[40%] bg-white/10 items-center justify-center">
+//               <img
+//                 src="/images/black_king.png"
+//                 alt="Newsletter"
+//                 className="h-full w-auto object-cover"
+//               />
+//             </div>
+//           </div>
+//         </motion.div>
+//       )}
+//     </AnimatePresence>
+//   );
+// }

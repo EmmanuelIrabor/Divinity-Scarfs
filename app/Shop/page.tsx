@@ -7,8 +7,10 @@ import { motion } from "framer-motion";
 import CartIndicator from "@/components/ui/CartIndicator";
 import BackgroundTwo from "@/components/BackgroundTwo";
 import NewsLetter from "@/components/NewsLetter";
+import { useRouter } from "next/navigation";
 
 export default function Shop() {
+  const router = useRouter();
   return (
     <>
       <BackgroundTwo />
@@ -25,7 +27,10 @@ export default function Shop() {
         </h1>
 
         <div className="flex xl:hidden justify-center mt-2 mb-5">
-          <button className="secondary-btn rounded">
+          <button
+            className="secondary-btn rounded"
+            onClick={() => router.push("/Shop/Collection")}
+          >
             <div className="flex gap-2 items-center p-0 m-0 justify-center">
               {" "}
               PURCHASE COLLECTION{" "}
@@ -77,7 +82,7 @@ export default function Shop() {
 
         <div className="flex flex-row justify-between ">
           <div className="hidden xl:flex justify-start mx-20 pt-5 mb-5">
-            <a className="font-bold" href="">
+            <a className="font-bold" href="Shop/Collection">
               <div className="flex gap-2 items-center p-0 m-0 justify-center mt-10 mx-10 cursor-pointer text-[0.6rem]">
                 {" "}
                 PURCHASE COLLECTION{" "}

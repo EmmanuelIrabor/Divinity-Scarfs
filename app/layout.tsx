@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../styles/main.scss";
 import LenisProvider from "../components/Lenis";
+import RouteTransition from "@/components/RouteTransitions";
 // import BarbaProvider from "../components/Barba";
 
 const geistSans = Geist({
@@ -32,7 +33,8 @@ export default function RootLayout({
       >
         <LenisProvider />
         {/* <BarbaProvider /> */}
-        {children}
+
+        <RouteTransition>{children}</RouteTransition>
       </body>
     </html>
   );

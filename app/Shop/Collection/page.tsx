@@ -4,13 +4,13 @@ import Navbar from "@/components/Navbar";
 // import CartIndicator from "@/components/ui/CartIndicator";
 import { useRouter } from "next/navigation";
 import { CaretLeft, ArrowCircleLeft, ArrowCircleRight } from "phosphor-react";
-import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 export default function ScarfPage() {
   const router = useRouter();
   const [showDetails, setShowDetails] = useState(false);
 
-  // Auto slide every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setShowDetails((prev) => !prev);
@@ -44,7 +44,7 @@ export default function ScarfPage() {
             </button>
 
             <p className="comforter text-black text-[3rem] text-center lg:text-left">
-              Paris Roque Scarf
+              Divinity Collection
             </p>
 
             <div className="flex flex-row gap-20 mt-10">
@@ -74,8 +74,8 @@ export default function ScarfPage() {
 
           <div className="flex justify-center items-start">
             <img
-              className="w-[250px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px]"
-              src="/images/scarf_three.png"
+              className="w-[300px] md:w-[300px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px]"
+              src="/images/collection.png"
               alt=""
             />
           </div>
@@ -125,15 +125,15 @@ export default function ScarfPage() {
             </div>
           </button> */}
           <p className="comforter text-black text-[2rem] text-center">
-            Paris Roque Scarf
+            Divinity Collection
           </p>
           <img
-            className="w-[300px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px] -mt-10"
-            src="/images/scarf_three.png"
+            className="w-[300px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px] mt-10"
+            src="/images/collection.png"
             alt=""
           />
         </div>
-        <div className="flex flex-row gap-10 items-end -mt-5">
+        <div className="flex flex-row gap-10 items-end ">
           <div className="flex-1">
             <AnimatePresence mode="wait">
               {!showDetails ? (
