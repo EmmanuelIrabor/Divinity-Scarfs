@@ -24,7 +24,7 @@ export default function RouteTransition({ children }: RouteTransitionProps) {
   const transition = getRouteTransition(previousPath, currentRoute);
 
   return (
-    <div className="overflow-hidden">
+    <div className="min-h-screen w-full overflow-x-hidden">
       {" "}
       {/* Prevent horizontal scroll */}
       <AnimatePresence mode="wait">
@@ -37,7 +37,7 @@ export default function RouteTransition({ children }: RouteTransitionProps) {
             duration: 0.3,
             ease: "easeInOut",
           }}
-          className="w-full h-full" // Ensure full container
+          className="w-full min-h-screen" // Full height without fixed positioning
         >
           {children}
         </motion.div>
