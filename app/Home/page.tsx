@@ -7,6 +7,8 @@ import Navbar from "../../components/Navbar";
 import Brandlabels from "@/components/ui/Brandlabels";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
 
 const scarves = [
   "/images/scarf_one.png",
@@ -72,9 +74,12 @@ export default function Home() {
       <Brandlabels />
 
       <div className="hidden xl:flex justify-end px-10 mt-17 mb-5">
-        <button className="primary-btn" onClick={() => router.push("/Shop")}>
+        {/* <button className="primary-btn" onClick={() => router.push("/Shop")}>
           Shop Now
-        </button>
+        </button> */}
+        <Link className="primary-btn" href="/Shop">
+          Shop Now
+        </Link>
       </div>
 
       <div id="home-scarfs" className="overflow-hidden w-full mt-10 xl:mt-0">
@@ -89,21 +94,26 @@ export default function Home() {
           }}
         >
           {scarves.map((src, idx) => (
-            <img
+            <Image
               key={idx}
               src={src}
               alt={`Scarf ${idx + 1}`}
-              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] cursor-pointer"
+              width={300}
+              height={300}
+              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] object-cover cursor-pointer"
               onClick={() => router.push("/Shop")}
             />
           ))}
+
           {/* duplicate for seamless loop */}
           {scarves.map((src, idx) => (
-            <img
+            <Image
               key={idx + scarves.length}
               src={src}
               alt={`Scarf ${idx + 1}`}
-              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] cursor-pointer"
+              width={300}
+              height={300}
+              className="w-[250px] h-[250px] xl:w-[300px] xl:h-[300px] object-cover cursor-pointer"
               onClick={() => router.push("/Shop")}
             />
           ))}
@@ -111,9 +121,12 @@ export default function Home() {
       </div>
 
       <div className="xl:hidden absolute bottom-0 left-1/2 -translate-x-1/2">
-        <button className="primary-btn" onClick={() => router.push("/Shop")}>
+        {/* <button className="primary-btn" onClick={() => router.push("/Shop")}>
           Shop Now
-        </button>
+        </button> */}
+        <Link className="primary-btn" href="/Shop">
+          Shop Now
+        </Link>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 import Input from "@/components/ui/Input";
 import { CaretLeft } from "phosphor-react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 export default function Checkout() {
   const router = useRouter();
   return (
@@ -81,9 +82,28 @@ export default function Checkout() {
         </div>
       </div>
 
-      <div className="flex justify-center mb-10 mt-20">
-        <button className="primary-btn px-10 w-100 xl:w-70 py-3">
-          MAKE PAYMENT
+      <div className="flex flex-col lg:flex-row gap-3 justify-center mb-10 mt-20">
+        <button className="primary-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
+          <div className="flex items-center justify-center gap-2">
+            PAY WITH PAYPAL{" "}
+            <Image
+              src={"/images/paypal.png"}
+              alt="logo"
+              width={10}
+              height={10}
+            />
+          </div>
+        </button>
+        <button className="alt-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
+          <div className="flex items-center justify-center gap-2">
+            PAY WITH PAYSTACK{" "}
+            <Image
+              src={"/images/paystack.png"}
+              alt="logo"
+              width={10}
+              height={10}
+            />
+          </div>
         </button>
       </div>
     </div>

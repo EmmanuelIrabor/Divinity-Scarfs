@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function ShopNow({ isDark = false }: { isDark?: boolean }) {
   const router = useRouter();
@@ -11,12 +12,16 @@ export default function ShopNow({ isDark = false }: { isDark?: boolean }) {
       xl:static xl:translate-x-0 xl:bottom-auto xl:left-auto
       xl:flex xl:justify-end xl:px-40 xl:mt-12 xl:mb-0"
     >
-      <button
+      {/* <button
         className={isDark ? "secondary-btn" : "primary-btn"}
         onClick={() => router.push("/Shop")}
       >
         Shop Now
-      </button>
+      </button> */}
+      <Link className={isDark ? "secondary-btn" : "primary-btn"} href={"/Shop"}>
+        {" "}
+        Shop Now
+      </Link>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import BackgroundAbout from "@/components/Background-About";
 export default function About() {
   return (
     <>
-      <BackgroundAbout />
+      {/* <BackgroundAbout /> */}
 
       <div
         className="min-h-screen w-full"

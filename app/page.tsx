@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 // import barba from "@barba/core";
 
 export default function Preloader() {
@@ -52,12 +53,9 @@ export default function Preloader() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
       >
-        <button
-          className="primary-btn rounded"
-          onClick={() => router.push("/Home")}
-        >
+        <Link className="primary-btn rounded" href="/Home">
           Explore
-        </button>
+        </Link>
       </motion.div>
     </div>
   );

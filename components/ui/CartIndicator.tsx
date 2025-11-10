@@ -1,4 +1,5 @@
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 export default function CartIndicator() {
   const router = useRouter();
   return (
@@ -7,9 +8,12 @@ export default function CartIndicator() {
     xl:static xl:translate-x-0 xl:bottom-auto xl:left-auto
     xl:flex xl:justify-end xl:px-40 xl:mt-12 xl:mb-0"
     >
-      <button className="secondary-btn" onClick={() => router.push("/Cart")}>
+      {/* <button className="secondary-btn" onClick={() => router.push("/Cart")}>
         CART ( 0 )
-      </button>
+      </button> */}
+      <Link href={"/Cart"} className="secondary-btn">
+        CART ( 0 )
+      </Link>
     </div>
   );
 }

@@ -52,7 +52,7 @@ export default function More() {
 
   return (
     <>
-      <BackgroundTwo />
+      {/* <BackgroundTwo /> */}
 
       <div
         className="min-h-screen w-full"

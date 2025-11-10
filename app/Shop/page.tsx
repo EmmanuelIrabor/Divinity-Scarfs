@@ -8,12 +8,13 @@ import CartIndicator from "@/components/ui/CartIndicator";
 import BackgroundTwo from "@/components/BackgroundTwo";
 import NewsLetter from "@/components/NewsLetter";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Shop() {
   const router = useRouter();
   return (
     <>
-      <BackgroundTwo />
+      {/* <BackgroundTwo /> */}
 
       <div
         className="min-h-screen w-full"
@@ -27,7 +28,7 @@ export default function Shop() {
         </h1>
 
         <div className="flex xl:hidden justify-center mt-2 mb-5">
-          <button
+          {/* <button
             className="secondary-btn rounded"
             onClick={() => router.push("/Shop/Collection")}
           >
@@ -46,7 +47,24 @@ export default function Shop() {
                 <StarFour weight="fill" />
               </motion.div>
             </div>
-          </button>
+          </button> */}
+
+          <Link className="secondary-btn rounded" href="/Shop/Collection">
+            <div className="flex gap-2 items-center p-0 m-0 justify-center">
+              PURCHASE COLLECTION
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 3,
+                  ease: "linear",
+                }}
+                className="inline-block"
+              >
+                <StarFour weight="fill" />
+              </motion.div>
+            </div>
+          </Link>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center max-w-6xl mx-auto px-6 mt-0 gap-10 lg:gap-15 -mt-5">
@@ -82,7 +100,7 @@ export default function Shop() {
 
         <div className="flex flex-row justify-between ">
           <div className="hidden xl:flex justify-start mx-20 pt-5 mb-5">
-            <a className="font-bold" href="Shop/Collection">
+            {/* <a className="font-bold" href="Shop/Collection">
               <div className="flex gap-2 items-center p-0 m-0 justify-center mt-10 mx-10 cursor-pointer text-[0.6rem]">
                 {" "}
                 PURCHASE COLLECTION{" "}
@@ -98,7 +116,24 @@ export default function Shop() {
                   <StarFour weight="fill" />
                 </motion.div>
               </div>
-            </a>
+            </a> */}
+            <Link className="font-bold" href="/Shop/Collection">
+              <div className="flex gap-2 items-center p-0 m-0 justify-center mt-10 mx-10 cursor-pointer text-[0.6rem]">
+                {" "}
+                PURCHASE COLLECTION{" "}
+                <motion.div
+                  animate={{ rotate: 360 }}
+                  transition={{
+                    repeat: Infinity,
+                    duration: 3,
+                    ease: "linear",
+                  }}
+                  className="inline-block"
+                >
+                  <StarFour weight="fill" />
+                </motion.div>
+              </div>
+            </Link>
           </div>
 
           {/* <div className="hidden xl:flex justify-end mx-30  mt-10 mb-5">
