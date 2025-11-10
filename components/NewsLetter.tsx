@@ -20,8 +20,8 @@ export default function NewsLetter() {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
-          transition={{ type: "spring", stiffness: 50, damping: 15 }}
-          className="fixed inset-0 flex items-center justify-center z-50 bg-black/30 backdrop-blur-sm h-full w-full"
+          transition={{ type: "spring", stiffness: 60, damping: 5 }}
+          className="fixed inset-0 flex items-center justify-center z-50   h-full w-full"
         >
           <div className="relative flex flex-row bg-gradient-to-r from-[#A2B0ED] to-[#DDDDDD] shadow-xl w-[90%] max-w-2xl overflow-hidden">
             {/* Close button */}
