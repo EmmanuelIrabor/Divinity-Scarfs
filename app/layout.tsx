@@ -34,7 +34,8 @@ export default function RootLayout({
         <LenisProvider />
         {/* <BarbaProvider /> */}
 
-        <RouteTransition>{children}</RouteTransition>
+        {/* <RouteTransition>{children}</RouteTransition> */}
+        {children}
       </body>
     </html>
   );
