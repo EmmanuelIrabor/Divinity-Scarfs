@@ -10,7 +10,6 @@ export default function ScarfPage() {
   const router = useRouter();
   const [showDetails, setShowDetails] = useState(false);
 
-  // Auto slide every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setShowDetails((prev) => !prev);
@@ -145,7 +144,7 @@ export default function ScarfPage() {
                   transition={{ duration: 0.3 }}
                 >
                   <p className="text-lg text-black font-bold">$490</p>
-                  <p className="text-black text-sm leading-relaxed">
+                  <p className="text-black text-xs leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Minus consectetur nobis modi architecto? Beatae libero in
                     autem error quae iusto assumenda ipsam possimus ratione iure
@@ -162,25 +161,25 @@ export default function ScarfPage() {
                 >
                   <div className="flex flex-row gap-20 mt-10">
                     <div className="flex flex-col">
-                      <p className="text-charcoal">CREATOR</p>
-                      <p className="text-black">Michael Irabor</p>
+                      <p className="text-charcoal text-xs">CREATOR</p>
+                      <p className="text-black text-xs">Michael Irabor</p>
                     </div>
 
                     <div className="flex flex-col">
-                      <p className="text-charcoal">YEAR</p>
-                      <p className="text-black">2025</p>
+                      <p className="text-charcoal text-xs">YEAR</p>
+                      <p className="text-black text-xs">2025</p>
                     </div>
                   </div>
 
                   <div className="flex flex-row gap-20 mt-5">
                     <div className="flex flex-col">
-                      <p className="text-charcoal">DIMENSIONS</p>
-                      <p className="text-black">80 x 80</p>
+                      <p className="text-charcoal text-xs">DIMENSIONS</p>
+                      <p className="text-black text-xs">80 x 80</p>
                     </div>
 
                     <div className="flex flex-col">
-                      <p className="text-charcoal">MATERIAL</p>
-                      <p className="text-black">Satin</p>
+                      <p className="text-charcoal text-xs">MATERIAL</p>
+                      <p className="text-black text-xs">Satin</p>
                     </div>
                   </div>
                 </motion.div>
