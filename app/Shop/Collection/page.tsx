@@ -35,19 +35,19 @@ export default function ScarfPage() {
       <div className="hidden xl:block">
         <div className="flex flex-col lg:flex-row w-full px-8 gap-10 lg:gap-20">
           <div className="flex flex-col items-center lg:items-start flex-1">
-            {/* <button
+            <button
               className="blank-btn p-0 m-0 mb-10"
               onClick={() => router.push("/Shop")}
             >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
                 <CaretLeft weight="bold" /> Back to Shop
               </div>
-            </button> */}
-            <Link className="blank-btn p-0 m-0 mb-10" href={"/Shop"}>
+            </button>
+            {/* <Link className="blank-btn p-0 m-0 mb-10" href={"/Shop"}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
                 <CaretLeft weight="bold" /> Back to Shop
               </div>
-            </Link>
+            </Link> */}
 
             <p className="comforter text-black text-[3rem] text-center lg:text-left">
               Divinity Collection
@@ -110,20 +110,20 @@ export default function ScarfPage() {
       </div>
 
       <div className="flex items-center justify-start  xl:hidden px-3 relative top-6">
-        {/* <button
+        <button
           className="blank-btn p-0 m-0"
           onClick={() => router.push("/Shop")}
         >
           <div className="flex items-center gap-1 p-0 m-0 -mx-6">
             <CaretLeft weight="bold" /> Back to Shop
           </div>
-        </button> */}
+        </button>
 
-        <Link className="blank-btn p-0 m-0 mb-10" href={"/Shop"}>
+        {/* <Link className="blank-btn p-0 m-0 mb-10" href={"/Shop"}>
           <div className="flex items-center gap-1 p-0 m-0 -mx-6">
             <CaretLeft weight="bold" /> Back to Shop
           </div>
-        </Link>
+        </Link> */}
       </div>
 
       <div className="block xl:hidden px-6 py-20">
@@ -147,6 +147,7 @@ export default function ScarfPage() {
         </div>
         <div className="flex flex-row gap-10 items-end ">
           <div className="flex-1">
+            <p className="text-lg text-black font-bold">$490</p>
             <AnimatePresence mode="wait">
               {!showDetails ? (
                 <motion.div
@@ -156,7 +157,6 @@ export default function ScarfPage() {
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <p className="text-lg text-black font-bold">$490</p>
                   <p className="text-black text-xs leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Minus consectetur nobis modi architecto? Beatae libero in
@@ -172,7 +172,7 @@ export default function ScarfPage() {
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="flex flex-row gap-20 mt-10">
+                  <div className="flex flex-row gap-20 mt-1">
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">CREATOR</p>
                       <p className="text-black text-xs">Michael Irabor</p>
