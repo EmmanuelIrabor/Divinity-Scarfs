@@ -82,7 +82,7 @@ export default function Checkout() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-3 justify-center mb-10 mt-20">
+      <div className="flex flex-col lg:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
         <button className="primary-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
           <div className="flex items-center justify-center gap-2">
             PAY WITH PAYPAL{" "}
