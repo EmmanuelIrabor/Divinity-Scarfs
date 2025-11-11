@@ -18,7 +18,23 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Divinity Scarfs",
-  description: "Handmade Scarfs Crafted with Love and Care",
+  description: "An Exclusive Foulard Collection",
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
+  openGraph: {
+    title: "Divinity Scarfs",
+    description: "An Exclusive Foulard Collection",
+    images: ["/images/preview-bg.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Divinity Scarfs",
+    description: "An Exclusive Foulard Collection",
+    images: ["/images/preview-bg.png"],
+  },
 };
 
 export default function RootLayout({

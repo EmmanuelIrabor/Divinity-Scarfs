@@ -12,13 +12,13 @@ export default function About() {
         data-barba="container"
         data-barba-namespace="about"
       >
-        <Navbar isDark />
+        <Navbar />
 
         <div className="mt-25 xl:mt-10">
-          <h1 className="text-center comforter text-[4rem] xl:text-[5rem]">
+          <h1 className="text-center text-black comforter text-[4rem] xl:text-[5rem]">
             Divinity Scarfs
           </h1>
-          <p className="text-center mt-5 px-5 xl:px-40">
+          <p className="text-center text-xs text-black mt-5 px-5 xl:px-40">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
             necessitatibus illum ex officiis? Similique qui est cum fugit, iusto
             mollitia aliquam aspernatur eligendi perferendis ipsam, amet,

@@ -20,13 +20,16 @@ export default function Cart() {
         <div className="flex flex-row justify-between items-center">
           {" "}
           <h4 className="font-bold">MY CART</h4>{" "}
-          <button
+          {/* <button
             className="blank-btn--white unset"
             onClick={() => router.push("/Shop")}
           >
             {" "}
             <X size={32} />{" "}
-          </button>{" "}
+          </button>{" "} */}
+          <Link className="blank-btn--white unset" href={"/Shop"}>
+            <X size={32} />
+          </Link>
         </div>{" "}
         {/* Cart Items */}{" "}
         <div className="flex-1 overflow-y-auto mt-5 pb-40">

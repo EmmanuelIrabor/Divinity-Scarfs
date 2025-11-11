@@ -94,7 +94,7 @@ export default function Checkout() {
             />
           </div>
         </button>
-        <button className="alt-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
+        <button className="secondary-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
           <div className="flex items-center justify-center gap-2">
             PAY WITH PAYSTACK{" "}
             <Image

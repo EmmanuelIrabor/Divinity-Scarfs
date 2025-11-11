@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 type ShopScarfProps = {
@@ -24,10 +25,13 @@ export default function ShopScarf({
       onClick={() => router.push(route)}
       className="flex flex-col items-start gap-0 cursor-pointer"
     >
-      <img
+      <Image
         src={image}
         alt={name}
-        className="w-[300px] lg:w-[300px] xl:w-[400px] 2xl:w-[400px]"
+        width={400}
+        height={400}
+        className="w-[300px] lg:w-[300px] xl:w-[400px] 2xl:w-[400px] h-auto object-cover"
+        priority
       />
 
       <div className="flex flex-col gap-1 mx-5 lg:mx-10 w-full">
