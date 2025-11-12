@@ -46,14 +46,14 @@ const scarves = [
 ];
 
 export default function Collection() {
-  // useEffect(() => {
-  //   const originalOverflowX = document.body.style.overflowX;
-  //   document.body.style.overflowX = "hidden";
+  useEffect(() => {
+    const originalOverflowX = document.body.style.overflowX;
+    document.body.style.overflowX = "hidden";
 
-  //   return () => {
-  //     document.body.style.overflowX = originalOverflowX;
-  //   };
-  // }, []);
+    return () => {
+      document.body.style.overflowX = originalOverflowX;
+    };
+  }, []);
 
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -165,19 +165,18 @@ export default function Collection() {
               alt={currentScarf.title}
             />
           </AnimatePresence>
-          <div className="flex flex-col gap-0 justify-self-end">
-            <button className="blank-btn p-0 m-0" onClick={prevScarf}>
-              <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
-                <ArrowCircleLeft weight="bold" /> Previous
-              </div>
+          <div className="xl:hidden flex flex-col gap-0 justify-self-end">
+            <button
+              className="blank-btn  flex items-center gap-1 p-0 m-0 -mx-6 -my-10"
+              onClick={prevScarf}
+            >
+              Previous
             </button>
             <button
-              className="blank-btn p-0 m-0 mx-0 my-0 px-0 py-0"
+              className="blank-btn flex items-center gap-1 p-0 m-0 -mx-6 -my-10 "
               onClick={nextScarf}
             >
-              <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
-                Next <ArrowCircleRight weight="bold" />
-              </div>
+              Next
             </button>
           </div>
         </div>
@@ -187,3 +186,4 @@ export default function Collection() {
     </div>
   );
 }
+
