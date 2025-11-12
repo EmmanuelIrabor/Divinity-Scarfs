@@ -46,15 +46,6 @@ const scarves = [
 ];
 
 export default function Collection() {
-  useEffect(() => {
-    const originalOverflowX = document.body.style.overflowX;
-    document.body.style.overflowX = "hidden";
-
-    return () => {
-      document.body.style.overflowX = originalOverflowX;
-    };
-  }, []);
-
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
@@ -96,7 +87,7 @@ export default function Collection() {
 
   return (
     <div
-      className="min-h-screen w-full"
+      className="min-h-screen w-full overflow-x-hidden"
       data-barba="container"
       data-barba-namespace="shop"
     >
@@ -106,10 +97,12 @@ export default function Collection() {
         COLLECTION
       </h1>
 
-      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10">
+      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10 overflow-x-hidden">
         {" "}
-        <div className="flex flex-col ">
+        {/* Added overflow-x-hidden */}
+        <div className="flex flex-col overflow-x-hidden">
           {" "}
+          {/* Added overflow-x-hidden */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
               key={currentScarf.id}
@@ -149,8 +142,9 @@ export default function Collection() {
             </button>
           </div>
         </div>
-        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block">
+        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block overflow-x-hidden">
           {" "}
+          {/* Added overflow-x-hidden */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.img
               key={currentScarf.id}
@@ -166,18 +160,19 @@ export default function Collection() {
             />
           </AnimatePresence>
           <div className="xl:hidden flex flex-col gap-0 justify-self-end">
-            <button
-              className="blank-btn  flex items-center gap-1 p-0 m-0 -mx-6 -my-10"
+            <div
+              className="blank-btn flex items-center gap-1 p-0 m-0 -mx-6 -my-10"
               onClick={prevScarf}
             >
-              Previous
-            </button>
-            <button
-              className="blank-btn flex items-center gap-1 p-0 m-0 -mx-6 -my-10 "
+              <ArrowCircleLeft weight="bold" /> Previous
+            </div>
+
+            <div
+              className="blank-btn flex items-center gap-1 p-0 m-0 mx-2 -my-3"
               onClick={nextScarf}
             >
-              Next
-            </button>
+              Next <ArrowCircleRight weight="bold" />
+            </div>
           </div>
         </div>
       </div>
