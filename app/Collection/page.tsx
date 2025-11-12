@@ -136,7 +136,7 @@ export default function Collection() {
           <div className="hidden xl:flex flex-row gap-1 mt-4">
             <button className="blank-btn p-0 m-0" onClick={prevScarf}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                <ArrowCircleLeft weight="bold" size={5} /> Previous
+                <ArrowCircleLeft weight="bold" /> Previous
               </div>
             </button>
             <button
@@ -144,7 +144,7 @@ export default function Collection() {
               onClick={nextScarf}
             >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                Next <ArrowCircleRight weight="bold" size={5} />
+                Next <ArrowCircleRight weight="bold" />
               </div>
             </button>
           </div>
@@ -165,7 +165,7 @@ export default function Collection() {
               alt={currentScarf.title}
             />
           </AnimatePresence>
-          <div className="xl:hidden flex flex-col gap-0 justify-self-end">
+          <div className="xl:hidden md:flex md:flex-col md:gap-0 md:justify-self-end">
             <button className="blank-btn p-0 m-0" onClick={prevScarf}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
                 <ArrowCircleLeft weight="bold" /> Previous
