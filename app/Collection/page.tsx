@@ -165,7 +165,7 @@ export default function Collection() {
               alt={currentScarf.title}
             />
           </AnimatePresence>
-          <div className="xl:hidden md:flex md:flex-col md:gap-0 md:justify-self-end">
+          <div className="flex flex-col gap-0 justify-self-end">
             <button className="blank-btn p-0 m-0" onClick={prevScarf}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
                 <ArrowCircleLeft weight="bold" /> Previous
