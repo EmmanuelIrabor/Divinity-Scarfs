@@ -34,19 +34,19 @@ export default function ScarfPage() {
       <div className="hidden xl:block">
         <div className="flex flex-col lg:flex-row w-full px-8 gap-10 lg:gap-20">
           <div className="flex flex-col items-center lg:items-start flex-1">
-            <button
+            {/* <button
               className="blank-btn p-0 m-0 mb-10"
               onClick={() => router.push("/Shop")}
             >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
                 <CaretLeft weight="bold" /> Back to Shop
               </div>
-            </button>
-            {/* <Link className="blank-btn p-0 m-0 mb-10" href={"/Shop"}>
+            </button> */}
+            <Link className="blank-btn p-0 m-0 mb-10 text-xs" href={"/Shop"}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
                 <CaretLeft weight="bold" /> Back to Shop
               </div>
-            </Link> */}
+            </Link>
 
             <p className="comforter text-black text-[3rem] text-center lg:text-left">
               Paris Roque Scarf
@@ -109,20 +109,26 @@ export default function ScarfPage() {
       </div>
 
       <div className="flex items-center justify-start  xl:hidden px-3 relative top-6">
-        <button
+        {/* <button
           className="blank-btn p-0 m-0"
           onClick={() => router.push("/Shop")}
         >
           <div className="flex items-center gap-1 p-0 m-0 -mx-6">
             <CaretLeft weight="bold" /> Back to Shop
           </div>
-        </button>
+        </button> */}
 
-        {/* <Link className="blank-btn p-0 m-0" href={"/Shop"}>
-          <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-            <CaretLeft weight="bold" /> Back to Shop
+        {/* <Link className="blank-btn p-0 m-0 text-xs" href="/Shop">
+          <div className="flex items-center gap-1 p-0 m-0 -mx-2 py-4">
+            <CaretLeft weight="bold" size={10} /> Back to Shop
           </div>
         </Link> */}
+        <Link
+          href="/Shop"
+          className="blank-btn p-0 m-0 text-xs relative z-50 pointer-events-auto flex items-center gap-1 py-3"
+        >
+          <CaretLeft weight="bold" size={10} /> Back to Shop
+        </Link>
       </div>
 
       <div className="block xl:hidden px-6 py-20">

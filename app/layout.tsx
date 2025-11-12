@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../styles/main.scss";
 import LenisProvider from "../components/Lenis";
+// import scarfs from "@/data/Scarfs.json";
 import RouteTransition from "@/components/RouteTransitions";
 // import BarbaProvider from "../components/Barba";
 
@@ -17,8 +18,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://divinityscarfs.vercel.app"),
   title: "Divinity Scarfs",
   description: "An Exclusive Foulard Collection",
+
   icons: {
     icon: "/images/logo.png",
     shortcut: "/images/logo.png",
@@ -35,6 +38,10 @@ export const metadata: Metadata = {
     description: "An Exclusive Foulard Collection",
     images: ["/images/preview-bg.png"],
   },
+};
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

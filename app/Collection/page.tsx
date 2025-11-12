@@ -46,6 +46,15 @@ const scarves = [
 ];
 
 export default function Collection() {
+  useEffect(() => {
+    const originalOverflowX = document.body.style.overflowX;
+    document.body.style.overflowX = "hidden";
+
+    return () => {
+      document.body.style.overflowX = originalOverflowX;
+    };
+  }, []);
+
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
@@ -78,7 +87,7 @@ export default function Collection() {
       opacity: 1,
     },
     exit: (direction: number) => ({
-      x: direction > 0 ? -100 : 100, // Reduced from 300 to prevent overflow
+      x: direction > 0 ? -100 : 100,
       opacity: 0,
     }),
   };
@@ -87,7 +96,7 @@ export default function Collection() {
 
   return (
     <div
-      className="min-h-screen w-full overflow-x-hidden" // Added overflow-x-hidden
+      className="min-h-screen w-full"
       data-barba="container"
       data-barba-namespace="shop"
     >
@@ -97,12 +106,10 @@ export default function Collection() {
         COLLECTION
       </h1>
 
-      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10 overflow-x-hidden">
+      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10">
         {" "}
-        {/* Added overflow-x-hidden */}
-        <div className="flex flex-col overflow-x-hidden">
+        <div className="flex flex-col ">
           {" "}
-          {/* Added overflow-x-hidden */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
               key={currentScarf.id}
@@ -142,9 +149,8 @@ export default function Collection() {
             </button>
           </div>
         </div>
-        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block overflow-x-hidden">
+        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block">
           {" "}
-          {/* Added overflow-x-hidden */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.img
               key={currentScarf.id}
