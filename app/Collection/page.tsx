@@ -46,14 +46,14 @@ const scarves = [
 ];
 
 export default function Collection() {
-  useEffect(() => {
-    const originalOverflowX = document.body.style.overflowX;
-    document.body.style.overflowX = "hidden";
+  // useEffect(() => {
+  //   const originalOverflowX = document.body.style.overflowX;
+  //   document.body.style.overflowX = "hidden";
 
-    return () => {
-      document.body.style.overflowX = originalOverflowX;
-    };
-  }, []);
+  //   return () => {
+  //     document.body.style.overflowX = originalOverflowX;
+  //   };
+  // }, []);
 
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -136,7 +136,7 @@ export default function Collection() {
           <div className="hidden xl:flex flex-row gap-1 mt-4">
             <button className="blank-btn p-0 m-0" onClick={prevScarf}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                <ArrowCircleLeft weight="bold" /> Previous
+                <ArrowCircleLeft weight="bold" size={5} /> Previous
               </div>
             </button>
             <button
@@ -144,7 +144,7 @@ export default function Collection() {
               onClick={nextScarf}
             >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                Next <ArrowCircleRight weight="bold" />
+                Next <ArrowCircleRight weight="bold" size={5} />
               </div>
             </button>
           </div>
