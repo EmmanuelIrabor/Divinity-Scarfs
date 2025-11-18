@@ -77,7 +77,6 @@ export default function More() {
             ))}
           </div>
 
-          {/* Center Scarf Image */}
           <div className="w-full lg:w-1/3 flex justify-center order-3 lg:order-2 lg:-mt-10">
             <AnimatePresence mode="wait">
               <motion.img
@@ -109,12 +108,17 @@ export default function More() {
                 {activeNav === "privacy" && (
                   <div>
                     <p className="text-xs">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laborum nam optio modi pariatur beatae saepe fuga enim
-                      cupiditate. Explicabo hic adipisci deserunt dolore, earum
-                      nostrum nisi debitis soluta minima sed. Lorem ipsum dolor
-                      sit amet consectetur adipisicing elit. Laborum nam optio
-                      modi.
+                      Divinity Scarfs respects your privacy and handles personal
+                      data with care. We collect only the information needed to
+                      process orders, provide customer support, and improve your
+                      experience on our platform. Your details are never sold,
+                      traded, or shared with third parties outside of essential
+                      payment processors and trusted service providers who help
+                      us operate securely. We use industry-standard measures to
+                      protect your information from unauthorized access and
+                      retain data only for as long as it serves a clear purpose.
+                      By using our site, you consent to these practices, and you
+                      may request updates or deletion of your data at any time.
                     </p>
                   </div>
                 )}
@@ -122,11 +126,18 @@ export default function More() {
                 {activeNav === "terms" && (
                   <div>
                     <p className="text-xs">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Corporis harum commodi a fuga adipisci corrupti ipsam
-                      sapiente nemo aut debitis ipsum asperiores dicta,
-                      consequatur assumenda? Maxime tenetur fugiat minima
-                      assumenda.
+                      By purchasing from Divinity Scarfs, you agree to use our
+                      products for personal, non-commercial purposes unless
+                      otherwise stated. All designs, images, and written content
+                      remain the intellectual property of Divinity Scarfs and
+                      may not be reproduced or distributed without permission.
+                      Prices, availability, and product details may change at
+                      any time, and orders are considered final once confirmed.
+                      We are not responsible for delays caused by shipping
+                      partners or inaccuracies caused by user-submitted
+                      information. By accessing our site, you accept these terms
+                      and acknowledge that continued use constitutes ongoing
+                      agreement.
                     </p>
                   </div>
                 )}

@@ -19,17 +19,15 @@ export default function About() {
             Divinity Scarfs
           </h1>
           <p className="text-center text-xs text-black mt-5 px-5 xl:px-40">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-            necessitatibus illum ex officiis? Similique qui est cum fugit, iusto
-            mollitia aliquam aspernatur eligendi perferendis ipsam, amet,
-            laudantium rem inventore corporis. Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Aliquam necessitatibus illum ex
-            officiis? Similique qui est cum fugit, iusto mollitia aliquam
-            aspernatur eligendi perferendis ipsam, amet, laudantium rem
-            inventore corporis. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Aliquam necessitatibus illum ex officiis?
-            Similique qui est cum fugit, iusto mollitia aliquam aspernatur
-            eligendi perferendis ipsam, amet, laudantium rem inventore corporis.
+            The Divinity Foulard Collection is a collectors piece where Fine
+            Arts meets Craftsmanship. Can be worn as a chic neck scarf/tie, hair
+            accessory, head tie band,handbag accessory, hat decoration, waist
+            band The Foulard Collection features Neo pop styled Illustrations
+            inspired by the Theme of Divinity and most importantly by the
+            Artist’s__ Irabor Michael__ Experiences on visiting Rome Italy. Very
+            inpired by the churches and Basiclia’s found in a historic city such
+            as Rome, Italy. A masterpiece of Neo pop contemporary design and
+            craftsmanship and to be cherished like a work of art.
           </p>
         </div>
 

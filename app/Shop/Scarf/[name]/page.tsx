@@ -1,14 +1,82 @@
 "use client";
 import Navbar from "@/components/Navbar";
-
 import { useRouter } from "next/navigation";
 import { CaretLeft, ArrowCircleLeft, ArrowCircleRight } from "phosphor-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-export default function ScarfPage() {
+import { use } from "react";
+import scarfsData from "@/app/data/Scarfs.json";
+import { addToCart, getCartItems } from "@/lib/Cart";
+import { CartCount } from "@/components/ui/CartCount";
+
+interface Scarf {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  dimension: string;
+  creator: string;
+  year: number;
+  material: string;
+  image: string;
+}
+
+interface ScarfPageProps {
+  params: Promise<{
+    name: string;
+  }>;
+}
+
+export default function ScarfPage({ params }: ScarfPageProps) {
   const router = useRouter();
   const [showDetails, setShowDetails] = useState(false);
+  const [scarf, setScarf] = useState<Scarf | null>(null);
+  const [isAddedToCart, setIsAddedToCart] = useState(false);
+
+  useEffect(() => {
+    if (!scarf) return; // Add null check
+
+    const checkIfInCart = () => {
+      const cartItems = getCartItems();
+      const isInCart = cartItems.some((item) => item.scarf_id === scarf.id);
+      setIsAddedToCart(isInCart);
+    };
+
+    checkIfInCart();
+
+    const handleCartUpdate = () => {
+      checkIfInCart();
+    };
+
+    window.addEventListener("cartUpdated", handleCartUpdate);
+    return () => window.removeEventListener("cartUpdated", handleCartUpdate);
+  }, [scarf?.id]);
+
+  const handleAddToCart = (scarfId: number) => {
+    addToCart(scarfId);
+    setIsAddedToCart(true);
+  };
+  const [loading, setLoading] = useState(true);
+
+  const { name } = use(params);
+
+  useEffect(() => {
+    const decodedName = decodeURIComponent(name);
+
+    const normalizeString = (str: string) => {
+      return str.toLowerCase().replace(/[^a-z0-9]/g, "");
+    };
+
+    const foundScarf = scarfsData.scarfs.find((s: Scarf) => {
+      const scarfNameNormalized = normalizeString(s.name);
+      const paramNameNormalized = normalizeString(decodedName);
+      return scarfNameNormalized === paramNameNormalized;
+    });
+
+    setScarf(foundScarf || null);
+    setLoading(false);
+  }, [name]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,6 +89,28 @@ export default function ScarfPage() {
   const toggleDetails = () => {
     setShowDetails((prev) => !prev);
   };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen w-full flex items-center justify-center">
+        <Navbar />
+        <p className="text-black">Loading...</p>
+      </div>
+    );
+  }
+
+  if (!scarf) {
+    return (
+      <div className="min-h-screen w-full flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-black text-xl mb-4">Scarf not found</p>
+          <Link href="/Shop" className="primary-btn">
+            Back to Shop
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -40,30 +130,30 @@ export default function ScarfPage() {
             </Link>
 
             <p className="comforter text-black text-[3rem] text-center lg:text-left">
-              Paris Roque Scarf
+              {scarf.name}
             </p>
 
             <div className="flex flex-row gap-20 mt-10">
               <div className="flex flex-col">
                 <p className="text-charcoal">CREATOR</p>
-                <p className="text-black">Michael Irabor</p>
+                <p className="text-black">{scarf.creator}</p>
               </div>
 
               <div className="flex flex-col">
                 <p className="text-charcoal">YEAR</p>
-                <p className="text-black">2025</p>
+                <p className="text-black">{scarf.year}</p>
               </div>
             </div>
 
             <div className="flex flex-row gap-20 mt-10">
               <div className="flex flex-col">
                 <p className="text-charcoal">DIMENSIONS</p>
-                <p className="text-black">80 x 80</p>
+                <p className="text-black">{scarf.dimension} CM</p>
               </div>
 
               <div className="flex flex-col">
                 <p className="text-charcoal">MATERIAL</p>
-                <p className="text-black">Satin</p>
+                <p className="text-black">{scarf.material}</p>
               </div>
             </div>
           </div>
@@ -71,30 +161,40 @@ export default function ScarfPage() {
           <div className="flex justify-center items-start">
             <img
               className="w-[250px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px]"
-              src="/images/scarf_three.png"
-              alt=""
+              src={scarf.image}
+              alt={scarf.name}
             />
           </div>
 
           <div className="flex flex-col justify-start mt-20 flex-1 max-w-sm">
             <p className="text-black text-sm leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              adipisci, quasi dolores praesentium itaque cumque ad cum neque
-              asperiores id exercitationem molestiae laborum enim deleniti
-              facilis explicabo magnam eligendi velit.
+              {scarf.description}
             </p>
           </div>
         </div>
 
         <div className="flex flex-row items-center justify-between px-8 mt-20 ">
           <div className="flex flex-row gap-5">
-            <button className="primary-btn">ADD TO CART</button>
+            <button
+              className={`primary-btn ${
+                isAddedToCart ? "opacity-70 pointer-events-none" : ""
+              }`}
+              onClick={() => handleAddToCart(scarf.id)}
+              disabled={isAddedToCart}
+            >
+              {isAddedToCart ? "ADDED TO CART" : "ADD TO CART"}
+            </button>
             <button className="alt-btn">PURCHASE</button>
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="text-black text-xl">$490</p>
-            <img src="/images/stars.png" alt="" width={130} height={130} />
+            <p className="text-black text-xl">${scarf.price}</p>
+            <img
+              src="/images/stars.png"
+              alt="Rating"
+              width={130}
+              height={130}
+            />
           </div>
         </div>
       </div>
@@ -111,17 +211,17 @@ export default function ScarfPage() {
       <div className="block xl:hidden px-6 py-20">
         <div className="flex flex-col items-center">
           <p className="comforter text-black text-[2rem] text-center">
-            Paris Roque Scarf
+            {scarf.name}
           </p>
           <img
             className="w-[300px] md:w-[280px] lg:w-[300px] xl:w-[320px] 2xl:w-[360px] -mt-10"
-            src="/images/scarf_three.png"
-            alt=""
+            src={scarf.image}
+            alt={scarf.name}
           />
         </div>
         <div className="flex flex-row gap-10 items-end -mt-5">
           <div className="flex-1">
-            <p className="text-lg text-black font-bold">$490</p>
+            <p className="text-lg text-black font-bold">${scarf.price}</p>
             <AnimatePresence mode="wait">
               {!showDetails ? (
                 <motion.div
@@ -132,10 +232,7 @@ export default function ScarfPage() {
                   transition={{ duration: 0.3 }}
                 >
                   <p className="text-black text-xs leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minus consectetur nobis modi architecto? Beatae libero in
-                    autem error quae iusto assumenda ipsam possimus ratione iure
-                    fugit dicta, porro eligendi obcaecati.
+                    {scarf.description}
                   </p>
                 </motion.div>
               ) : (
@@ -149,24 +246,24 @@ export default function ScarfPage() {
                   <div className="flex flex-row gap-20 mt-1">
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">CREATOR</p>
-                      <p className="text-black text-xs">Michael Irabor</p>
+                      <p className="text-black text-xs">{scarf.creator}</p>
                     </div>
 
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">YEAR</p>
-                      <p className="text-black text-xs">2025</p>
+                      <p className="text-black text-xs">{scarf.year}</p>
                     </div>
                   </div>
 
                   <div className="flex flex-row gap-20 mt-5">
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">DIMENSIONS</p>
-                      <p className="text-black text-xs">80 x 80</p>
+                      <p className="text-black text-xs">{scarf.dimension} CM</p>
                     </div>
 
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">MATERIAL</p>
-                      <p className="text-black text-xs">Satin</p>
+                      <p className="text-black text-xs">{scarf.material}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -201,11 +298,19 @@ export default function ScarfPage() {
         </div>
 
         <div className="flex justify-center items-center mt-10">
-          <img src="/images/stars.png" alt="" width={100} height={100} />
+          <img src="/images/stars.png" alt="Rating" width={100} height={100} />
         </div>
 
         <div className="flex flex-col gap-2 w-full mt-5">
-          <button className="primary-btn h-15">ADD TO CART</button>
+          <button
+            className={`primary-btn h-15 ${
+              isAddedToCart ? "opacity-70 pointer-events-none" : ""
+            }`}
+            onClick={() => handleAddToCart(scarf.id)}
+            disabled={isAddedToCart}
+          >
+            {isAddedToCart ? "ADDED TO CART" : "ADD TO CART"}
+          </button>
           <button className="alt-btn h-15">PURCHASE</button>
         </div>
       </div>
@@ -215,7 +320,7 @@ export default function ScarfPage() {
           className="secondary-btn font-bold"
           onClick={() => router.push("/Cart")}
         >
-          CART ( 0 )
+          <CartCount />
         </button>
       </div>
 
@@ -224,7 +329,7 @@ export default function ScarfPage() {
           className="secondary-btn font-bold"
           onClick={() => router.push("/Cart")}
         >
-          CART ( 0 )
+          <CartCount />
         </button>
       </div>
     </div>

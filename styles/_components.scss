@@ -1,0 +1,61 @@
+.loader {
+  width: 38px;
+  height: 38px;
+  border: 2px solid $color-charcoal;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* globals.css - add at end so it wins over any other rules */
+
+/* base container limit */
+.paypal-container {
+  width: 100%;
+  max-width: 420px; /* or max-w-md equivalent */
+  max-height: 2000px; /* prevents extreme vertical growth */
+  overflow: hidden; /* hide overflow unless scroll needed */
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* if card fields are tall, allow vertical scroll inside container */
+.paypal-container.scrollable {
+  overflow-y: auto;
+}
+
+/* target PayPal injected iframes and panels:
+   these selectors are broad to catch various class names and src values */
+.paypal-container iframe,
+.paypal-container .paypal-button,
+.paypal-container [id^="paypal"] iframe,
+.paypal-container [class*="paypal"],
+.paypal-container [data-pp-id],
+.paypal-container [data-testid*="card"] {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: auto !important;
+  position: relative !important; /* remove fixed/absolute behavior */
+  left: 0 !important;
+  top: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* sometimes PayPal uses fixed-position overlays — force them to behave */
+.paypal-container *[style*="position:fixed"],
+.paypal-container *[style*="position:absolute"] {
+  position: relative !important;
+}

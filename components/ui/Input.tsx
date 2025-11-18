@@ -5,8 +5,8 @@ type InputProps = {
   type?: string;
   name?: string;
   value?: string;
-  //   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  //   placeholder?: string;
+  required?: boolean;
+  onChange?: (value: string) => void;
 };
 
 export default function Input({
@@ -14,9 +14,9 @@ export default function Input({
   type = "text",
   name,
   value,
-}: //   onChange,
-//   placeholder,
-InputProps) {
+  required = false,
+  onChange,
+}: InputProps) {
   return (
     <div className="mx-2 input-container mt-5 flex flex-col w-60">
       <label className="text-black text-md mb-2 text-xs">{label}</label>
@@ -24,9 +24,9 @@ InputProps) {
         type={type}
         name={name}
         value={value}
-        // onChange={onChange}
-        // placeholder={placeholder}
+        onChange={(e) => onChange?.(e.target.value)}
         className="input-field"
+        required={required}
       />
     </div>
   );

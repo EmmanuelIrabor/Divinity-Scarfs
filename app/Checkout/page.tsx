@@ -3,8 +3,144 @@ import Input from "@/components/ui/Input";
 import { CaretLeft } from "phosphor-react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import InputSelect from "@/components/ui/InputSelect";
+import { useState, useEffect } from "react";
+import { getCartItems } from "@/lib/Cart";
+import scarfsData from "@/app/data/Scarfs.json";
+import { usePayment } from "@/app/hooks/usePayment";
+import Loader from "@/components/ui/loader";
+import Link from "next/link";
+
+interface CartScarf {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  dimension: string;
+  creator: string;
+  year: number;
+  material: string;
+  image: string;
+  quantity: number;
+}
+
+interface FormData {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  address: string;
+  zipCode: string;
+  country: string;
+  state: string;
+  city: string;
+}
+
 export default function Checkout() {
   const router = useRouter();
+  const [cartScarfs, setCartScarfs] = useState<CartScarf[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [formData, setFormData] = useState<FormData>({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    address: "",
+    zipCode: "",
+    country: "",
+    state: "",
+    city: "",
+  });
+  const [isFormValid, setIsFormValid] = useState(false);
+
+  const calculateTotal = () => {
+    return cartScarfs.reduce(
+      (total, scarf) => total + scarf.price * scarf.quantity,
+      0
+    );
+  };
+
+  const { handlePaystackPayment, isProcessing, error, clearError } = usePayment(
+    {
+      formData,
+      cartScarfs,
+      calculateTotal,
+    }
+  );
+
+  useEffect(() => {
+    if (error) {
+      clearError();
+    }
+  }, [formData, error, clearError]);
+
+  useEffect(() => {
+    const loadCartItems = () => {
+      const cartItems = getCartItems();
+      const scarfsWithDetails: CartScarf[] = [];
+
+      cartItems.forEach((cartItem) => {
+        const scarfDetails = scarfsData.scarfs.find(
+          (scarf) => scarf.id === cartItem.scarf_id
+        );
+        if (scarfDetails) {
+          scarfsWithDetails.push({
+            ...scarfDetails,
+            quantity: cartItem.quantity,
+          });
+        }
+      });
+
+      setCartScarfs(scarfsWithDetails);
+      setLoading(false);
+    };
+
+    loadCartItems();
+
+    const handleCartUpdate = () => {
+      loadCartItems();
+    };
+
+    window.addEventListener("cartUpdated", handleCartUpdate);
+    return () => window.removeEventListener("cartUpdated", handleCartUpdate);
+  }, []);
+
+  useEffect(() => {
+    const isValid =
+      formData.firstName.trim() !== "" &&
+      formData.lastName.trim() !== "" &&
+      formData.email.trim() !== "" &&
+      formData.phone.trim() !== "" &&
+      formData.address.trim() !== "" &&
+      formData.zipCode.trim() !== "" &&
+      formData.country.trim() !== "" &&
+      formData.state.trim() !== "" &&
+      formData.city.trim() !== "";
+
+    setIsFormValid(isValid);
+  }, [formData]);
+
+  const handleInputChange = (name: keyof FormData, value: string) => {
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handlePayment = (method: string) => {
+    if (!isFormValid) return;
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen w-full flex items-center justify-center">
+        <p className="text-black">
+          <Loader />
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div
       className="min-h-screen w-full px-8"
@@ -27,53 +163,135 @@ export default function Checkout() {
           </p>
           <div className="mt-5">
             <div className="double-inputs--checkout flex flex-row items-center gap-5">
-              <Input label="First Name" name="firstName" />
-              <Input label="Last Name" name="lastName" />
+              <Input
+                label="First Name"
+                name="firstName"
+                required
+                value={formData.firstName}
+                onChange={(value) => handleInputChange("firstName", value)}
+              />
+              <Input
+                label="Last Name"
+                name="lastName"
+                required
+                value={formData.lastName}
+                onChange={(value) => handleInputChange("lastName", value)}
+              />
             </div>
             <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
-              <Input label="Email" name="email" />
-              <Input label="PhoneNumber" name="phone number" />
+              <Input
+                label="Email"
+                name="email"
+                type="email"
+                required
+                value={formData.email}
+                onChange={(value) => handleInputChange("email", value)}
+              />
+              <Input
+                label="Phone Number"
+                name="phone"
+                required
+                value={formData.phone}
+                onChange={(value) => handleInputChange("phone", value)}
+              />
             </div>
 
             <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
-              <Input label="Address" name="address" />
-              <Input label="Zip Code" name="zipcode" />
+              <Input
+                label="Address"
+                name="address"
+                required
+                value={formData.address}
+                onChange={(value) => handleInputChange("address", value)}
+              />
+              <Input
+                label="Zip Code"
+                name="zipCode"
+                required
+                value={formData.zipCode}
+                onChange={(value) => handleInputChange("zipCode", value)}
+              />
             </div>
 
             <div className="flex flex-row gap-2 mt-5 items-center">
-              <div className="mx-2 mt-5 flex flex-col w-39">
-                <label className="text-black text-xs mb-2">Country</label>
-                <select className="input-field" name="Country" id="">
-                  <option value="">Nigeria</option>
-                </select>
-              </div>
-              <div className="mx-2 mt-5 flex flex-col w-39">
-                <label className="text-black text-xs mb-2">State</label>
-                <select className="input-field" name="State" id="">
-                  <option value="">Lagos</option>
-                </select>
-              </div>
-              <div className="mx-2 mt-5 flex flex-col w-39">
-                <label className="text-black text-xs mb-2">City</label>
-                <select className="input-field" name="City" id="">
-                  <option value="">Ikeja</option>
-                </select>
-              </div>
+              <InputSelect
+                label="Country"
+                name="country"
+                value={formData.country}
+                onChange={(value) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    country: value,
+                    state: "",
+                    city: "",
+                  }));
+                }}
+                type="country"
+                required
+              />
+
+              <InputSelect
+                label="State"
+                name="state"
+                value={formData.state}
+                onChange={(value) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    state: value,
+                    city: "",
+                  }));
+                }}
+                type="state"
+                countryCode={formData.country}
+                required
+                disabled={!formData.country}
+              />
+
+              <InputSelect
+                label="City"
+                name="city"
+                value={formData.city}
+                onChange={(value) => handleInputChange("city", value)}
+                type="city"
+                countryCode={formData.country}
+                stateCode={formData.state}
+                required
+                disabled={!formData.state}
+              />
             </div>
           </div>
         </div>
         <div className="flex flex-col mt-10 lg:mt-5">
           <div className="text-center">
             <h1 className="text-xl font-bold text-black">ITEMS(S)</h1>
-            <p className="text-black comforter">1 Paris Roque Scarf</p>
           </div>
 
-          <div className="flex flex-col items-center lg:items-end mt-10 mb-10 text-center lg:text-right">
-            <img src="/images/scarf_twox.png" alt="" width={120} height={120} />
-            <p className="text-black mt-5">Total: $490</p>
+          {/* Dynamic cart items */}
+          {cartScarfs.map((scarf) => (
+            <div
+              key={scarf.id}
+              className="flex flex-col items-center lg:items-end mt-5 mb-10 text-center lg:text-right"
+            >
+              <p className="text-black text-center comforter -mt-4">
+                {scarf.name} x {scarf.quantity}
+              </p>
+              <img
+                src={scarf.image}
+                alt={scarf.name}
+                width={120}
+                height={120}
+                className="mt-2"
+              />
+            </div>
+          ))}
+
+          <div className="flex flex-col items-center lg:items-end -mt-10 mb-10 text-center lg:text-right">
+            <p className="text-black mt-5 text-lg text-xs">
+              Total: ${calculateTotal()}
+            </p>
             <img
               src="/images/stars.png"
-              alt=""
+              alt="Rating"
               width={100}
               height={50}
               className="mt-2"
@@ -83,7 +301,14 @@ export default function Checkout() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
-        <button className="primary-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
+        <Link
+          href={"/PaypalCheckout"}
+          className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
+            isFormValid
+              ? "primary-btn"
+              : "primary-btn opacity-50 pointer-events-none"
+          }`}
+        >
           <div className="flex items-center justify-center gap-2">
             PAY WITH PAYPAL{" "}
             <Image
@@ -93,8 +318,17 @@ export default function Checkout() {
               height={10}
             />
           </div>
-        </button>
-        <button className="secondary-btn w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base">
+        </Link>
+
+        <button
+          className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
+            isFormValid
+              ? "secondary-btn"
+              : "secondary-btn opacity-50 pointer-events-none"
+          }`}
+          onClick={handlePaystackPayment}
+          disabled={!isFormValid}
+        >
           <div className="flex items-center justify-center gap-2">
             PAY WITH PAYSTACK{" "}
             <Image

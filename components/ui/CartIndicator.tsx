@@ -1,5 +1,6 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { CartCount } from "./CartCount";
 export default function CartIndicator() {
   const router = useRouter();
   return (
@@ -12,7 +13,7 @@ export default function CartIndicator() {
         CART ( 0 )
       </button> */}
       <Link href={"/Cart"} className="secondary-btn">
-        CART ( 0 )
+        <CartCount />
       </Link>
     </div>
   );

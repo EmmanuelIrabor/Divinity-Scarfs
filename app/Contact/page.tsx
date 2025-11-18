@@ -20,7 +20,7 @@ export default function contact() {
         <div className="flex flex-row gap-5 xl:gap-20">
           <div>
             <div className="mt-2">
-              <p className="text-black text-xs xl:text-lg">+212(0)8234126</p>
+              <p className="text-black text-xs xl:text-lg">+00(0)000000</p>
               <p className="text-black text-xs xl:text-lg mt-2">
                 contact@divinityscarf.com
               </p>

@@ -13,8 +13,21 @@
     outline: none;
     box-shadow: 0 0 5px rgba($color-alt, 0.5);
   }
-}
 
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: $color-black !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  &:autofill {
+    background: transparent !important;
+    color: $color-black !important;
+  }
+}
 .input-field__control {
   border: 1px solid $color-black !important;
   background: none !important;

@@ -1,0 +1,58 @@
+{
+  "scarfs": [
+    {
+      "id": 1,
+      "name": "Celestial Veil",
+      "description": "A quiet hymn to rising beyond the weight of the world, this piece moves like a soft passage between earth and something brighter. It carries the feeling of being lifted gently by unseen hands, guided toward a realm where innocence and courage meet. Its spirit is an invitation upward, a calm surrender into wonder.",
+      "price": 180,
+      "dimension": "80 x 80",
+      "creator": "Michael Irabor",
+      "year": 2025,
+      "material": "100% Polyester Satin",
+      "image": "/images/scarf_one.png"
+    },
+    {
+      "id": 2,
+      "name": "Whispers of Dawn",
+      "description": "A meditation on love as a holy force, steady and luminous. It traces the path of devotion that doesn’t burn but glows, shaping the soul from the inside out. There’s a hush to its message, the kind that feels like a prayer whispered for you alone — a reminder that tenderness is its own form of ascension.",
+      "price": 160,
+      "dimension": "80 x 80",
+      "creator": "Michael Irabor",
+      "year": 2025,
+      "material": "100% Polyester Satin",
+      "image": "/images/scarf_two.png"
+    },
+    {
+      "id": 3,
+      "name": "Sacred Heart",
+      "description": "A slow awakening wrapped in grace, speaking of light that returns after long silence. It holds the promise of renewal, not rushed but divinely timed, rising like a blessing over a quiet horizon. Its essence is the soft assurance that every new beginning is touched by something sacred.",
+      "price": 200,
+      "dimension": "80 x 80",
+      "creator": "Michael Irabor",
+      "year": 2025,
+      "material": "100% Polyester Satin",
+      "image": "/images/scarf_three.png"
+    },
+    {
+      "id": 4,
+      "name": "Golden Hour",
+      "description": "A moment suspended between worlds, where the veil thins and everything feels an inch closer to the divine. It glows with the warmth of a final benediction before the day closes, urging the spirit upward with a gentle pull. Its presence is a reminder that transcendence often arrives in the most fleeting light.",
+      "price": 190,
+      "dimension": "80 x 80",
+      "creator": "Michael Irabor",
+      "year": 2025,
+      "material": "100% Polyester Satin",
+      "image": "/images/scarf_four.png"
+    },{
+      "id": 5,
+      "name": "Divinity Collection",
+      "description": "A gathering of visions shaped around the journey of the spirit, moving from innocence to revelation. It weaves together the quiet guidance of light, the tenderness of devotion, and the soft pull of transformation. The collection carries the sense of walking through sacred thresholds, each piece a step upward into a realm where beauty feels holy and every moment hums with higher meaning.",
+      "price": 190,
+      "dimension": "80 x 80",
+      "creator": "Michael Irabor",
+      "year": 2025,
+      "material": "100% Polyester Satin",
+      "image": "/images/Collection.png"
+    }
+  ]
+}

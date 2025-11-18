@@ -9,51 +9,51 @@ import { useState, useEffect } from "react";
 const scarves = [
   {
     id: 1,
-    title: "Paris Roque Scarf",
+    title: "Celestial Veil",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ea sunt distinctio minima, eum neque, ut cupiditate corrupti nihil provident nam mollitia sequi fugiat deserunt minus? Iste sunt vero reprehenderit.",
+      "A quiet hymn to rising beyond the weight of the world, this piece moves like a soft passage between earth and something brighter. It carries the feeling of being lifted gently by unseen hands, guided toward a realm where innocence and courage meet. Its spirit is an invitation upward, a calm surrender into wonder.",
     size: "80 x 80",
-    barcode: "Paris Roque Scarf 80x80 handwash",
+    barcode: "Celestial Veil 80x80 handwash",
     image: "/images/scarf_one.png",
   },
   {
     id: 2,
-    title: "Luxury Silk Scarf",
+    title: "Whispers of Dawn",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    size: "90 x 90",
-    barcode: "Luxury Silk Scarf 90x90 dryclean",
+      "A meditation on love as a holy force, steady and luminous. It traces the path of devotion that doesn’t burn but glows, shaping the soul from the inside out. There’s a hush to its message, the kind that feels like a prayer whispered for you alone — a reminder that tenderness is its own form of ascension.",
+    size: "80 x 80",
+    barcode: "Whispers of Dawn 80x80 handwash",
     image: "/images/scarf_two.png",
   },
   {
     id: 3,
-    title: "Cashmere Winter Scarf",
+    title: "Sacred Heart",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",
-    size: "85 x 85",
-    barcode: "Cashmere Winter Scarf 85x85 handwash",
+      "A slow awakening wrapped in grace, speaking of light that returns after long silence. It holds the promise of renewal, not rushed but divinely timed, rising like a blessing over a quiet horizon. Its essence is the soft assurance that every new beginning is touched by something sacred.",
+    size: "80 x 80",
+    barcode: "Sacred Heart 80x80 handwash",
     image: "/images/scarf_three.png",
   },
   {
     id: 4,
-    title: "Designer Print Scarf",
+    title: "Golden Hour",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    size: "75 x 75",
-    barcode: "Designer Print Scarf 75x75 handwash",
+      "A moment suspended between worlds, where the veil thins and everything feels an inch closer to the divine. It glows with the warmth of a final benediction before the day closes, urging the spirit upward with a gentle pull. Its presence is a reminder that transcendence often arrives in the most fleeting light.",
+    size: "80 x 80",
+    barcode: "Golden Hour 80x80 handwash",
     image: "/images/scarf_four.png",
   },
 ];
 
 export default function Collection() {
-  // useEffect(() => {
-  //   const originalOverflowX = document.body.style.overflowX;
-  //   document.body.style.overflowX = "hidden";
+  useEffect(() => {
+    const originalOverflowX = document.body.style.overflowX;
+    document.body.style.overflowX = "hidden";
 
-  //   return () => {
-  //     document.body.style.overflowX = originalOverflowX;
-  //   };
-  // }, []);
+    return () => {
+      document.body.style.overflowX = originalOverflowX;
+    };
+  }, []);
 
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -96,7 +96,7 @@ export default function Collection() {
 
   return (
     <div
-      className="min-h-screen w-full"
+      className="min-h-screen w-full "
       data-barba="container"
       data-barba-namespace="shop"
     >
@@ -106,10 +106,12 @@ export default function Collection() {
         COLLECTION
       </h1>
 
-      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10">
+      <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center max-w-6xl mx-auto px-6 mt-5 mb-10 ">
         {" "}
+        {/* Added  */}
         <div className="flex flex-col ">
           {" "}
+          {/* Added  */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
               key={currentScarf.id}
@@ -136,7 +138,7 @@ export default function Collection() {
           <div className="hidden xl:flex flex-row gap-1 mt-4">
             <button className="blank-btn p-0 m-0" onClick={prevScarf}>
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                <ArrowCircleLeft weight="bold" size={5} /> Previous
+                <ArrowCircleLeft weight="bold" /> Previous
               </div>
             </button>
             <button
@@ -144,13 +146,14 @@ export default function Collection() {
               onClick={nextScarf}
             >
               <div className="flex items-center gap-1 p-0 m-0 -mx-6">
-                Next <ArrowCircleRight weight="bold" size={5} />
+                Next <ArrowCircleRight weight="bold" />
               </div>
             </button>
           </div>
         </div>
-        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block">
+        <div className="mt-0 xl:-mt-10 xl:mx-0 flex flex-row items-end justify-between xl:block ">
           {" "}
+          {/* Added  */}
           <AnimatePresence mode="wait" custom={direction}>
             <motion.img
               key={currentScarf.id}
@@ -165,20 +168,19 @@ export default function Collection() {
               alt={currentScarf.title}
             />
           </AnimatePresence>
-          <div className="xl:hidden flex flex-col gap-0 justify-self-end">
-            <button className="blank-btn p-0 m-0" onClick={prevScarf}>
-              <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
-                <ArrowCircleLeft weight="bold" /> Previous
-              </div>
-            </button>
-            <button
-              className="blank-btn p-0 m-0 mx-0 my-0 px-0 py-0"
+          <div className="xl:hidden flex flex-col gap-1 my-10">
+            <div
+              className="blank-btn text-xs flex items-center gap-1"
               onClick={nextScarf}
             >
-              <div className="flex items-center gap-1 p-0 m-0 -mx-6 -my-10">
-                Next <ArrowCircleRight weight="bold" />
-              </div>
-            </button>
+              Next <ArrowCircleRight weight="bold" />
+            </div>
+            <div
+              className="blank-btn text-xs flex items-center gap-1"
+              onClick={prevScarf}
+            >
+              <ArrowCircleLeft weight="bold" /> Previous
+            </div>
           </div>
         </div>
       </div>

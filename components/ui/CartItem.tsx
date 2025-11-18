@@ -24,7 +24,6 @@ export default function CartItem({
 }: ScarfItemProps) {
   return (
     <div className="flex flex-row justify-between gap-5 mt-10 w-full">
-      {/* Left side — image and info */}
       <div className="flex flex-row gap-2 justify-center">
         <div>
           <img
@@ -51,7 +50,6 @@ export default function CartItem({
         </div>
       </div>
 
-      {/* Right side — quantity and price */}
       <div className="flex flex-col items-end justify-around">
         <div className="flex flex-row items-center gap-2 text-xs">
           <button onClick={onDecrease} className="blank-btn--white unset">
