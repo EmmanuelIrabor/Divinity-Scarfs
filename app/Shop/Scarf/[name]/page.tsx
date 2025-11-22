@@ -148,7 +148,7 @@ export default function ScarfPage({ params }: ScarfPageProps) {
             <div className="flex flex-row gap-20 mt-10">
               <div className="flex flex-col">
                 <p className="text-charcoal">DIMENSIONS</p>
-                <p className="text-black">{scarf.dimension} CM</p>
+                <p className="text-black">{scarf.dimension}</p>
               </div>
 
               <div className="flex flex-col">
@@ -258,7 +258,7 @@ export default function ScarfPage({ params }: ScarfPageProps) {
                   <div className="flex flex-row gap-20 mt-5">
                     <div className="flex flex-col">
                       <p className="text-charcoal text-xs">DIMENSIONS</p>
-                      <p className="text-black text-xs">{scarf.dimension} CM</p>
+                      <p className="text-black text-xs">{scarf.dimension}</p>
                     </div>
 
                     <div className="flex flex-col">

@@ -30,13 +30,10 @@
   box-sizing: border-box;
 }
 
-/* if card fields are tall, allow vertical scroll inside container */
 .paypal-container.scrollable {
   overflow-y: auto;
 }
 
-/* target PayPal injected iframes and panels:
-   these selectors are broad to catch various class names and src values */
 .paypal-container iframe,
 .paypal-container .paypal-button,
 .paypal-container [id^="paypal"] iframe,
@@ -46,7 +43,7 @@
   max-width: 100% !important;
   width: 100% !important;
   height: auto !important;
-  position: relative !important; /* remove fixed/absolute behavior */
+  position: relative !important;
   left: 0 !important;
   top: 0 !important;
   transform: none !important;
@@ -54,7 +51,6 @@
   box-sizing: border-box !important;
 }
 
-/* sometimes PayPal uses fixed-position overlays — force them to behave */
 .paypal-container *[style*="position:fixed"],
 .paypal-container *[style*="position:absolute"] {
   position: relative !important;

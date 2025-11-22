@@ -151,12 +151,13 @@ export default function Cart() {
             </div>
 
             <div className="flex justify-center mt-6">
-              <button
-                onClick={() => router.push("/Checkout")}
-                className="secondary-btn px-10 py-4 flex items-center gap-2 w-full max-w-sm"
+              <Link
+                href={"/Checkout"}
+                className="secondary-btn px-10 py-4 flex items-center text-center gap-2 w-full max-w-sm"
               >
+                {" "}
                 CONTINUE TO CHECKOUT
-              </button>
+              </Link>
             </div>
           </div>
         )}

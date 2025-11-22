@@ -34,7 +34,6 @@ export default function InputSelect({
   >([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Load options based on type
   useEffect(() => {
     const loadOptions = () => {
       setIsLoading(true);
@@ -79,7 +78,7 @@ export default function InputSelect({
         newOptions.sort((a, b) => a.label.localeCompare(b.label));
 
         if (required && newOptions.length > 0) {
-          newOptions = [{ value: "", label: `Select ${label}` }, ...newOptions];
+          newOptions = [{ value: "", label: `${label}` }, ...newOptions];
         }
 
         setDynamicOptions(newOptions);
@@ -96,7 +95,7 @@ export default function InputSelect({
   const selectOptions = type !== "custom" ? dynamicOptions : options || [];
 
   return (
-    <div className={`mx-2 mt-5 flex flex-col w-39 ${className}`}>
+    <div className={`mx-2 mt-5 flex flex-col w-90 lg:w-39 ${className}`}>
       <label className="text-black text-xs mb-2">
         {label}
         {required && <span className="text-red-500 ml-1">*</span>}

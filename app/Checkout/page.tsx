@@ -36,10 +36,19 @@ interface FormData {
   city: string;
 }
 
+interface CheckoutStorageData {
+  id: string;
+  formData: FormData;
+  cartScarfs: CartScarf[];
+  total: number;
+  timestamp: number;
+}
+
 export default function Checkout() {
   const router = useRouter();
   const [cartScarfs, setCartScarfs] = useState<CartScarf[]>([]);
   const [loading, setLoading] = useState(true);
+  const [checkoutId, setCheckoutId] = useState<string>("");
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -53,7 +62,40 @@ export default function Checkout() {
   });
   const [isFormValid, setIsFormValid] = useState(false);
 
-  const calculateTotal = () => {
+  const generateCheckoutId = (): string => {
+    return `checkout_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+  };
+
+  const saveToLocalStorage = (): void => {
+    if (!isFormValid || cartScarfs.length === 0) return;
+
+    const checkoutData: CheckoutStorageData = {
+      id: checkoutId,
+      formData,
+      cartScarfs,
+      total: calculateTotal(),
+      timestamp: Date.now(),
+    };
+
+    // Store as a single object instead of nested objects
+    localStorage.setItem("checkout", JSON.stringify(checkoutData));
+  };
+
+  const loadFromLocalStorage = (): void => {
+    const storedCheckout = localStorage.getItem("checkout");
+    if (storedCheckout) {
+      try {
+        const checkoutData: CheckoutStorageData = JSON.parse(storedCheckout);
+        setCheckoutId(checkoutData.id);
+        setFormData(checkoutData.formData);
+        setCartScarfs(checkoutData.cartScarfs);
+      } catch (error) {
+        console.error("Error loading checkout from localStorage:", error);
+      }
+    }
+  };
+
+  const calculateTotal = (): number => {
     return cartScarfs.reduce(
       (total, scarf) => total + scarf.price * scarf.quantity,
       0
@@ -97,6 +139,14 @@ export default function Checkout() {
 
     loadCartItems();
 
+    // Try to load existing checkout first, generate new ID if none exists
+    const storedCheckout = localStorage.getItem("checkout");
+    if (storedCheckout) {
+      loadFromLocalStorage();
+    } else {
+      setCheckoutId(generateCheckoutId());
+    }
+
     const handleCartUpdate = () => {
       loadCartItems();
     };
@@ -120,6 +170,12 @@ export default function Checkout() {
     setIsFormValid(isValid);
   }, [formData]);
 
+  useEffect(() => {
+    if (isFormValid && cartScarfs.length > 0 && checkoutId) {
+      saveToLocalStorage();
+    }
+  }, [formData, cartScarfs, isFormValid, checkoutId]);
+
   const handleInputChange = (name: keyof FormData, value: string) => {
     setFormData((prev) => ({
       ...prev,
@@ -129,6 +185,24 @@ export default function Checkout() {
 
   const handlePayment = (method: string) => {
     if (!isFormValid) return;
+    saveToLocalStorage();
+  };
+
+  // Optional: Add a function to clear the checkout if needed
+  const clearCheckout = (): void => {
+    localStorage.removeItem("checkout");
+    setCheckoutId(generateCheckoutId());
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      address: "",
+      zipCode: "",
+      country: "",
+      state: "",
+      city: "",
+    });
   };
 
   if (loading) {
@@ -162,7 +236,7 @@ export default function Checkout() {
             Fill in your delivery details
           </p>
           <div className="mt-5">
-            <div className="double-inputs--checkout flex flex-row items-center gap-5">
+            <div className="double-inputs--checkout flex flex-col md:flex-row lg:items-center gap-5">
               <Input
                 label="First Name"
                 name="firstName"
@@ -178,7 +252,7 @@ export default function Checkout() {
                 onChange={(value) => handleInputChange("lastName", value)}
               />
             </div>
-            <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
+            <div className="double-inputs--checkout flex flex-col md:flex-row lg:items-center gap-5 mt-5">
               <Input
                 label="Email"
                 name="email"
@@ -196,7 +270,7 @@ export default function Checkout() {
               />
             </div>
 
-            <div className="double-inputs--checkout flex flex-row items-center gap-5 mt-5">
+            <div className="double-inputs--checkout flex flex-col md:flex-row lg:items-center gap-5 mt-5">
               <Input
                 label="Address"
                 name="address"
@@ -213,7 +287,7 @@ export default function Checkout() {
               />
             </div>
 
-            <div className="flex flex-row gap-2 mt-5 items-center">
+            <div className="flex flex-row flex-wrap gap-2 mt-5 items-center">
               <InputSelect
                 label="Country"
                 name="country"
@@ -266,7 +340,6 @@ export default function Checkout() {
             <h1 className="text-xl font-bold text-black">ITEMS(S)</h1>
           </div>
 
-          {/* Dynamic cart items */}
           {cartScarfs.map((scarf) => (
             <div
               key={scarf.id}
@@ -300,7 +373,7 @@ export default function Checkout() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
+      <div className="flex flex-col md:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
         <Link
           href={"/PaypalCheckout"}
           className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
@@ -308,6 +381,7 @@ export default function Checkout() {
               ? "primary-btn"
               : "primary-btn opacity-50 pointer-events-none"
           }`}
+          onClick={() => handlePayment("paypal")}
         >
           <div className="flex items-center justify-center gap-2">
             PAY WITH PAYPAL{" "}
@@ -326,7 +400,10 @@ export default function Checkout() {
               ? "secondary-btn"
               : "secondary-btn opacity-50 pointer-events-none"
           }`}
-          onClick={handlePaystackPayment}
+          onClick={() => {
+            saveToLocalStorage();
+            handlePaystackPayment();
+          }}
           disabled={!isFormValid}
         >
           <div className="flex items-center justify-center gap-2">

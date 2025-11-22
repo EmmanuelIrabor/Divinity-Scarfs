@@ -17,7 +17,7 @@ export default function Shop() {
 
   return (
     <>
-      {/* <BackgroundTwo /> */}
+      <BackgroundTwo />
 
       <div
         className="min-h-screen w-full"

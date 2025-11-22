@@ -3,7 +3,7 @@
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { useRouter } from "next/navigation";
 
-const PAYPAL_CLIENT_ID = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID as string;
+const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID as string;
 
 export default function PayPalButton({ amount }: { amount: string }) {
   const router = useRouter();
@@ -11,7 +11,7 @@ export default function PayPalButton({ amount }: { amount: string }) {
   return (
     <PayPalScriptProvider
       options={{
-        clientId: process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID!,
+        clientId: process.env.PAYPAL_CLIENT_ID!,
         currency: "USD",
         intent: "capture",
       }}

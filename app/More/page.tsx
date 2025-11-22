@@ -3,7 +3,7 @@ import BackgroundTwo from "@/components/BackgroundTwo";
 import Navbar from "@/components/Navbar";
 import ShopNow from "@/components/ui/ShopNow";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const navItems = [
   {
@@ -48,6 +48,64 @@ export default function More() {
     enter: { opacity: 0 },
     center: { opacity: 1 },
     exit: { opacity: 0 },
+  };
+
+  const [email, setEmail] = useState<string>("");
+  const [isSubscribed, setIsSubscribed] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  useEffect(() => {
+    // Check if user is already subscribed on component mount
+    const subscribed = localStorage.getItem("email") === "true";
+    setIsSubscribed(subscribed);
+  }, []);
+
+  const validateEmail = (email: string): boolean => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  };
+
+  const handleSubscribe = async (): Promise<void> => {
+    if (!email || !validateEmail(email)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+
+    setIsLoading(true);
+
+    try {
+      // Add email to Mails.json via API
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        // Set localStorage and update state
+        localStorage.setItem("email", "true");
+        setIsSubscribed(true);
+      } else {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to subscribe");
+      }
+    } catch (error) {
+      alert(
+        error instanceof Error
+          ? error.message
+          : "Failed to subscribe. Please try again."
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>): void => {
+    if (e.key === "Enter" && email && validateEmail(email) && !isSubscribed) {
+      handleSubscribe();
+    }
   };
 
   return (
@@ -158,8 +216,27 @@ export default function More() {
                       className="border border-white outline-none px-3 py-2 mt-2 bg-transparent text-white placeholder-gray-300"
                       type="email"
                       placeholder="EMAIL"
+                      value={email}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                        setEmail(e.target.value)
+                      }
+                      onKeyDown={handleKeyDown}
+                      disabled={isSubscribed || isLoading}
                     />
-                    <button className="secondary-btn">SUBSCRIBE</button>
+                    <button
+                      onClick={handleSubscribe}
+                      disabled={
+                        isSubscribed ||
+                        isLoading ||
+                        !email ||
+                        !validateEmail(email)
+                      }
+                      className={`secondary-btn ${
+                        isSubscribed ? "opacity-50 cursor-default" : ""
+                      }`}
+                    >
+                      {isSubscribed ? "SUBSCRIBED" : "SUBSCRIBE"}
+                    </button>
                   </div>
                 )}
               </motion.div>

@@ -20,6 +20,12 @@ export async function initializePaystackPayment(
   paymentData: PaystackPaymentData
 ) {
   try {
+    console.log("Initializing Paystack payment with:", {
+      email: paymentData.email,
+      amount: paymentData.amount,
+      reference: paymentData.reference,
+    });
+
     const response = await fetch(
       "https://api.paystack.co/transaction/initialize",
       {
@@ -37,6 +43,8 @@ export async function initializePaystackPayment(
     }
 
     const data: PaystackResponse = await response.json();
+
+    // console.log("Paystack API response:", data);
 
     if (!data) {
       throw new Error("No response received from Paystack");
