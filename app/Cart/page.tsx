@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { getCartItems, removeFromCart, updateCartQuantity } from "@/lib/Cart";
 import scarfsData from "@/app/data/Scarfs.json";
+import Currency from "@/components/Currency";
 
 interface CartScarf {
   id: number;
@@ -142,7 +143,9 @@ export default function Cart() {
 
             <div className="flex flex-row justify-between">
               <p className="font-bold">TOTAL</p>
-              <p className="font-bold">$ {calculateTotal()}</p>
+              <p className="font-bold">
+                <Currency /> {calculateTotal()}
+              </p>
             </div>
 
             <div className="flex flex-row items-center gap-2 mt-3 text-sm">

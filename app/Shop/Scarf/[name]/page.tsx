@@ -9,6 +9,7 @@ import { use } from "react";
 import scarfsData from "@/app/data/Scarfs.json";
 import { addToCart, getCartItems } from "@/lib/Cart";
 import { CartCount } from "@/components/ui/CartCount";
+import Currency from "@/components/Currency";
 
 interface Scarf {
   id: number;
@@ -188,7 +189,10 @@ export default function ScarfPage({ params }: ScarfPageProps) {
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="text-black text-xl">${scarf.price}</p>
+            <p className="text-black text-xl">
+              <Currency />
+              {scarf.price}
+            </p>
             <img
               src="/images/stars.png"
               alt="Rating"
@@ -221,7 +225,10 @@ export default function ScarfPage({ params }: ScarfPageProps) {
         </div>
         <div className="flex flex-row gap-10 items-end -mt-5">
           <div className="flex-1">
-            <p className="text-lg text-black font-bold">${scarf.price}</p>
+            <p className="text-lg text-black font-bold">
+              <Currency />
+              {scarf.price}
+            </p>
             <AnimatePresence mode="wait">
               {!showDetails ? (
                 <motion.div

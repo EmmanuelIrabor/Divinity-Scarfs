@@ -3,8 +3,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Currency from "@/components/Currency";
-// import Currency from "@/components/Currency";
-// import CurrencyServer from "@/components/CurrencyServer";
 type ShopScarfProps = {
   name: string;
   dimension: string;

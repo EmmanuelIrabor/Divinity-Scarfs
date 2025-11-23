@@ -2,62 +2,51 @@
 
 import { useState, useEffect } from "react";
 
-interface GeolocationData {
-  ip: string;
-  city: string;
-  region: string;
-  country: string;
-  country_name: string;
-  continent_code: string;
-  postal: string;
-  latitude: number;
-  longitude: number;
-  timezone: string;
-  org: string;
-}
-
 export default function Currency() {
-  const [geoData, setGeoData] = useState<GeolocationData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [currencySymbol, setCurrencySymbol] = useState<string>("€");
 
   useEffect(() => {
-    const fetchGeolocation = async () => {
+    const fetchCurrency = async () => {
       try {
-        const response = await fetch("https://ipapi.co/json/");
-        if (!response.ok) {
-          throw new Error("Failed to fetch geolocation data");
+        const cached = localStorage.getItem("currency_data");
+        if (cached) {
+          const { symbol, timestamp } = JSON.parse(cached);
+          const oneHour = 60 * 60 * 1000;
+          if (Date.now() - timestamp < oneHour) {
+            setCurrencySymbol(symbol);
+            return;
+          }
         }
-        const data = await response.json();
-        setGeoData(data);
+
+        const response = await fetch("https://ipapi.co/continent_code/", {
+          method: "GET",
+          cache: "no-cache",
+        });
+
+        if (!response.ok) {
+          setCurrencySymbol("€");
+          return;
+        }
+
+        const continentCode = await response.text();
+        const symbol = continentCode.trim() === "AF" ? "₦" : "€";
+
+        localStorage.setItem(
+          "currency_data",
+          JSON.stringify({
+            symbol,
+            timestamp: Date.now(),
+          })
+        );
+
+        setCurrencySymbol(symbol);
       } catch (err) {
-        setError(err instanceof Error ? err.message : "An error occurred");
-      } finally {
-        setLoading(false);
+        setCurrencySymbol("€");
       }
     };
 
-    fetchGeolocation();
+    fetchCurrency();
   }, []);
 
-  const getCurrencySymbol = (continentCode: string): string => {
-    if (continentCode === "AF") {
-      return "&#8358;";
-    } else {
-      return "&#8364;";
-    }
-  };
-
-  if (!geoData) {
-    return <span className="">&#8364;</span>;
-  }
-
-  return (
-    <span
-      className=""
-      dangerouslySetInnerHTML={{
-        __html: getCurrencySymbol(geoData.continent_code),
-      }}
-    />
-  );
+  return <span>{currencySymbol}</span>;
 }

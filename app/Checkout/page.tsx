@@ -10,6 +10,7 @@ import scarfsData from "@/app/data/Scarfs.json";
 import { usePayment } from "@/app/hooks/usePayment";
 import Loader from "@/components/ui/loader";
 import Link from "next/link";
+import Currency from "@/components/Currency";
 
 interface CartScarf {
   id: number;
@@ -221,7 +222,7 @@ export default function Checkout() {
       data-barba="container"
       data-barba-namespace="checkout"
     >
-      <div className="flex flex-col md:gap-25 md:flex-row lg:justify-between mt-5">
+      <div className="flex flex-col md:gap-25 md:flex-row lg:justify-between mt-5 -mx-5">
         <div className="flex flex-col">
           <button
             className="blank-btn--black unset"
@@ -360,7 +361,8 @@ export default function Checkout() {
 
           <div className="flex flex-col items-center lg:items-end -mt-10 mb-10 text-center lg:text-right">
             <p className="text-black mt-5 text-lg text-xs">
-              Total: ${calculateTotal()}
+              Total: <Currency />
+              {calculateTotal()}
             </p>
             <img
               src="/images/stars.png"

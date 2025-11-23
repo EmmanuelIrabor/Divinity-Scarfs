@@ -95,7 +95,7 @@ export default function InputSelect({
   const selectOptions = type !== "custom" ? dynamicOptions : options || [];
 
   return (
-    <div className={`mx-2 mt-5 flex flex-col w-90 lg:w-39 ${className}`}>
+    <div className={`lg:mx-2 mt-5 flex flex-col w-90 lg:w-39 ${className}`}>
       <label className="text-black text-xs mb-2">
         {label}
         {required && <span className="text-red-500 ml-1">*</span>}

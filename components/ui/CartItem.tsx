@@ -1,5 +1,6 @@
 "use client";
 import { Minus, Plus } from "phosphor-react";
+import Currency from "@/components/Currency";
 
 interface ScarfItemProps {
   imageSrc: string;
@@ -61,7 +62,9 @@ export default function CartItem({
           </button>
         </div>
         <div>
-          <p className="text-xs lg:text-md">$ {price}</p>
+          <p className="text-xs lg:text-md">
+            <Currency /> {price}
+          </p>
         </div>
       </div>
     </div>

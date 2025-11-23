@@ -1,5 +1,3 @@
-// lib/sendEmail.ts or utils/sendEmail.ts
-
 interface CartItem {
   id: number;
   name: string;
@@ -36,7 +34,6 @@ export async function sendEmail(): Promise<{
   error?: string;
 }> {
   try {
-    // Get checkout from localStorage
     const checkoutStr = localStorage.getItem("checkout");
 
     if (!checkoutStr) {
