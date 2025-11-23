@@ -6,8 +6,6 @@ import LenisProvider from "../components/Lenis";
 // import scarfs from "@/data/Scarfs.json";
 import RouteTransition from "@/components/RouteTransitions";
 // import BarbaProvider from "../components/Barba";
-import CurrencyProviderClient from "@/components/ui/Currency";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -59,7 +57,7 @@ export default function RootLayout({
         {/* <BarbaProvider /> */}
 
         {/* <RouteTransition>{children}</RouteTransition> */}
-        <CurrencyProviderClient>{children}</CurrencyProviderClient>
+        {children}
       </body>
     </html>
   );

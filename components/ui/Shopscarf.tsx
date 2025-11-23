@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useCurrency } from "@/components/ui/Currency";
-
+import Currency from "@/components/Currency";
+// import Currency from "@/components/Currency";
+// import CurrencyServer from "@/components/CurrencyServer";
 type ShopScarfProps = {
   name: string;
   dimension: string;
@@ -20,7 +21,6 @@ export default function ShopScarf({
   route,
 }: ShopScarfProps) {
   const router = useRouter();
-  const { symbol } = useCurrency();
 
   return (
     <div
@@ -41,7 +41,7 @@ export default function ShopScarf({
         <p className="font-thin text-xs">{dimension}</p>
         <p className="text-xs">
           {" "}
-          <span dangerouslySetInnerHTML={{ __html: symbol }} />
+          <Currency />
           {price}
         </p>
       </div>
