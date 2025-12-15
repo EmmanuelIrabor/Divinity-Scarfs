@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { use } from "react";
-import scarfsData from "@/app/data/Scarfs.json";
+import { useRegionalData } from "@/app/hooks/RegionalData";
 import { addToCart, getCartItems } from "@/lib/Cart";
 import { CartCount } from "@/components/ui/CartCount";
 import Currency from "@/components/Currency";
@@ -34,6 +34,7 @@ export default function ScarfPage({ params }: ScarfPageProps) {
   const [showDetails, setShowDetails] = useState(false);
   const [scarf, setScarf] = useState<Scarf | null>(null);
   const [isAddedToCart, setIsAddedToCart] = useState(false);
+  const scarfsData = useRegionalData();
 
   useEffect(() => {
     if (!scarf) return; // Add null check
@@ -185,13 +186,13 @@ export default function ScarfPage({ params }: ScarfPageProps) {
             >
               {isAddedToCart ? "ADDED TO CART" : "ADD TO CART"}
             </button>
-            <button className="alt-btn">PURCHASE</button>
+            {/* <button className="alt-btn">PURCHASE</button> */}
           </div>
 
           <div className="flex flex-col items-end">
             <p className="text-black text-xl">
               <Currency />
-              {scarf.price}
+              {scarf.price.toLocaleString()}
             </p>
             <img
               src="/images/stars.png"
@@ -227,7 +228,7 @@ export default function ScarfPage({ params }: ScarfPageProps) {
           <div className="flex-1">
             <p className="text-lg text-black font-bold">
               <Currency />
-              {scarf.price}
+              {scarf.price.toLocaleString()}
             </p>
             <AnimatePresence mode="wait">
               {!showDetails ? (
@@ -318,7 +319,7 @@ export default function ScarfPage({ params }: ScarfPageProps) {
           >
             {isAddedToCart ? "ADDED TO CART" : "ADD TO CART"}
           </button>
-          <button className="alt-btn h-15">PURCHASE</button>
+          {/* <button className="alt-btn h-15">PURCHASE</button> */}
         </div>
       </div>
 

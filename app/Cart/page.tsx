@@ -6,8 +6,8 @@ import CartItem from "@/components/ui/CartItem";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { getCartItems, removeFromCart, updateCartQuantity } from "@/lib/Cart";
-import scarfsData from "@/app/data/Scarfs.json";
 import Currency from "@/components/Currency";
+import { useRegionalData } from "@/app/hooks/RegionalData";
 
 interface CartScarf {
   id: number;
@@ -26,6 +26,7 @@ export default function Cart() {
   const router = useRouter();
   const [cartScarfs, setCartScarfs] = useState<CartScarf[]>([]);
   const [loading, setLoading] = useState(true);
+  const scarfsData = useRegionalData();
 
   useEffect(() => {
     const loadCartItems = () => {
@@ -127,7 +128,7 @@ export default function Cart() {
                 imageSrc={scarf.image}
                 name={scarf.name}
                 size={scarf.dimension}
-                price={scarf.price}
+                price={scarf.price.toLocaleString()}
                 quantity={scarf.quantity}
                 onRemove={() => handleRemove(scarf.id)}
                 onIncrease={() => handleIncrease(scarf.id)}
@@ -144,7 +145,7 @@ export default function Cart() {
             <div className="flex flex-row justify-between">
               <p className="font-bold">TOTAL</p>
               <p className="font-bold">
-                <Currency /> {calculateTotal()}
+                <Currency /> {calculateTotal().toLocaleString()}
               </p>
             </div>
 

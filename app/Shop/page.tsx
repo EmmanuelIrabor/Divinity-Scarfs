@@ -1,5 +1,4 @@
 "use client";
-
 import Navbar from "@/components/Navbar";
 import { StarFour } from "phosphor-react";
 import ShopScarf from "@/components/ui/Shopscarf";
@@ -9,11 +8,14 @@ import BackgroundTwo from "@/components/BackgroundTwo";
 import NewsLetter from "@/components/NewsLetter";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import scarfsData from "@/app/data/Scarfs.json";
+import { useRegionalData } from "@/app/hooks/RegionalData";
 
 export default function Shop() {
   const router = useRouter();
-  const displayScarfs = scarfsData.scarfs.filter((scarf) => scarf.id <= 4);
+  const scarfsData = useRegionalData();
+  // const displayScarfs = scarfsData.scarfs.filter((scarf) => scarf.id <= 4);
+  const displayScarfs =
+    scarfsData?.scarfs.filter((scarf) => scarf.id <= 4) || [];
 
   return (
     <>
@@ -58,7 +60,7 @@ export default function Shop() {
               key={scarf.id}
               name={scarf.name}
               dimension={scarf.dimension}
-              price={scarf.price.toString()}
+              price={scarf.price.toLocaleString()}
               image={scarf.image}
               route={`/Shop/Scarf/${scarf.name
                 .toLowerCase()

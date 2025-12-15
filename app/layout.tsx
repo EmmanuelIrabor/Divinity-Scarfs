@@ -3,9 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../styles/main.scss";
 import LenisProvider from "../components/Lenis";
-// import scarfs from "@/data/Scarfs.json";
 import RouteTransition from "@/components/RouteTransitions";
+import RegionalProvider from "@/components/RegionalProvider";
 // import BarbaProvider from "../components/Barba";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
     images: ["/images/preview-bg.png"],
   },
 };
+
 export const viewport = {
   width: "device-width",
   initialScale: 1,
@@ -53,6 +55,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <RegionalProvider />
         <LenisProvider />
         {/* <BarbaProvider /> */}
 

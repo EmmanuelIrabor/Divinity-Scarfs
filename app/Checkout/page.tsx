@@ -6,7 +6,7 @@ import Image from "next/image";
 import InputSelect from "@/components/ui/InputSelect";
 import { useState, useEffect } from "react";
 import { getCartItems } from "@/lib/Cart";
-import scarfsData from "@/app/data/Scarfs.json";
+import { useRegionalData } from "@/app/hooks/RegionalData";
 import { usePayment } from "@/app/hooks/usePayment";
 import Loader from "@/components/ui/loader";
 import Link from "next/link";
@@ -47,6 +47,7 @@ interface CheckoutStorageData {
 
 export default function Checkout() {
   const router = useRouter();
+  const scarfsData = useRegionalData();
   const [cartScarfs, setCartScarfs] = useState<CartScarf[]>([]);
   const [loading, setLoading] = useState(true);
   const [checkoutId, setCheckoutId] = useState<string>("");
@@ -140,7 +141,6 @@ export default function Checkout() {
 
     loadCartItems();
 
-    // Try to load existing checkout first, generate new ID if none exists
     const storedCheckout = localStorage.getItem("checkout");
     if (storedCheckout) {
       loadFromLocalStorage();
@@ -171,6 +171,12 @@ export default function Checkout() {
     setIsFormValid(isValid);
   }, [formData]);
 
+  const [isAfrica, setIsAfrica] = useState(false);
+
+  useEffect(() => {
+    const continentCode = localStorage.getItem("continent_code") || "EU";
+    setIsAfrica(continentCode === "AF");
+  });
   useEffect(() => {
     if (isFormValid && cartScarfs.length > 0 && checkoutId) {
       saveToLocalStorage();
@@ -362,7 +368,7 @@ export default function Checkout() {
           <div className="flex flex-col items-center lg:items-end -mt-10 mb-10 text-center lg:text-right">
             <p className="text-black mt-5 text-lg text-xs">
               Total: <Currency />
-              {calculateTotal()}
+              {calculateTotal().toLocaleString()}
             </p>
             <img
               src="/images/stars.png"
@@ -375,7 +381,7 @@ export default function Checkout() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
+      {/* <div className="flex flex-col md:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
         <Link
           href={"/PaypalCheckout"}
           className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
@@ -418,6 +424,57 @@ export default function Checkout() {
             />
           </div>
         </button>
+      </div> */}
+
+      <div className="flex flex-col md:flex-row gap-3 justify-center mb-10 mt-5 lg:mt-20">
+        {/* Show PayPal for non-African regions */}
+        {!isAfrica && (
+          <Link
+            href={"/PaypalCheckout"}
+            className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
+              isFormValid
+                ? "primary-btn"
+                : "primary-btn opacity-50 pointer-events-none"
+            }`}
+            onClick={() => handlePayment("paypal")}
+          >
+            <div className="flex items-center justify-center gap-2">
+              PAY WITH PAYPAL{" "}
+              <Image
+                src={"/images/paypal.png"}
+                alt="logo"
+                width={10}
+                height={10}
+              />
+            </div>
+          </Link>
+        )}
+
+        {/* Show Paystack for African region */}
+        {isAfrica && (
+          <button
+            className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
+              isFormValid
+                ? "secondary-btn"
+                : "secondary-btn opacity-50 pointer-events-none"
+            }`}
+            onClick={() => {
+              saveToLocalStorage();
+              handlePaystackPayment();
+            }}
+            disabled={!isFormValid}
+          >
+            <div className="flex items-center justify-center gap-2">
+              PAY WITH PAYSTACK{" "}
+              <Image
+                src={"/images/paystack.png"}
+                alt="logo"
+                width={10}
+                height={10}
+              />
+            </div>
+          </button>
+        )}
       </div>
     </div>
   );

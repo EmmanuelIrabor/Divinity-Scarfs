@@ -12,7 +12,7 @@ export default function PayPalButton({ amount }: { amount: string }) {
     <PayPalScriptProvider
       options={{
         clientId: process.env.PAYPAL_CLIENT_ID!,
-        currency: "USD",
+        currency: "EUR",
         intent: "capture",
       }}
     >
@@ -25,10 +25,10 @@ export default function PayPalButton({ amount }: { amount: string }) {
               {
                 amount: {
                   value: amount,
-                  currency_code: "USD",
+                  currency_code: "EUR",
                   breakdown: {
                     item_total: {
-                      currency_code: "USD",
+                      currency_code: "EUR",
                       value: amount,
                     },
                   },
@@ -39,7 +39,7 @@ export default function PayPalButton({ amount }: { amount: string }) {
                     description: "Your purchase description",
                     quantity: "1",
                     unit_amount: {
-                      currency_code: "USD",
+                      currency_code: "EUR",
                       value: amount,
                     },
                   },

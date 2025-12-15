@@ -1,9 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
-import scarfsData from "../app/data/Scarfs.json";
+// import scarfsData from "../app/data/Scarfs.json";
+import { useRegionalData } from "@/app/hooks/RegionalData";
 
 export default function CartTotal() {
   const [total, setTotal] = useState(0);
+  const scarfsData = useRegionalData();
 
   useEffect(() => {
     const calculateTotal = () => {
