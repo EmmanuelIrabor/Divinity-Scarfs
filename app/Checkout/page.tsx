@@ -242,7 +242,7 @@ export default function Checkout() {
           <p className="text-xs text-charcoal mx-4">
             Fill in your delivery details
           </p>
-          <div className="mt-5">
+          <div className="mt-5 bg-white/10 backdrop-blur-md p-5 rounded-md">
             <div className="double-inputs--checkout flex flex-col md:flex-row lg:items-center gap-5">
               <Input
                 label="First Name"

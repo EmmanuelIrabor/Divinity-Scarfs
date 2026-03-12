@@ -1,5 +1,12 @@
 {
+  "/About/page": "app/About/page.js",
+  "/Cart/page": "app/Cart/page.js",
+  "/Checkout/page": "app/Checkout/page.js",
+  "/Collection/page": "app/Collection/page.js",
   "/Home/page": "app/Home/page.js",
+  "/More/page": "app/More/page.js",
+  "/Shop/Scarf/[name]/page": "app/Shop/Scarf/[name]/page.js",
+  "/Shop/page": "app/Shop/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }

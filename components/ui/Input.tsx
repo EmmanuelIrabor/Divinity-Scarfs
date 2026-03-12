@@ -18,8 +18,8 @@ export default function Input({
   onChange,
 }: InputProps) {
   return (
-    <div className="lg:mx-2 input-container mt-5 flex flex-col w-98 lg:w-60">
-      <label className="text-black text-md mb-2 text-xs">{label}</label>
+    <div className="lg:mx-2 input-container mt-5 flex flex-col w-full lg:w-60">
+      <label className="text-white text-md mb-2 text-xs">{label}</label>
       <input
         type={type}
         name={name}

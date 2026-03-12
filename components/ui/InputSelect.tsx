@@ -95,13 +95,13 @@ export default function InputSelect({
   const selectOptions = type !== "custom" ? dynamicOptions : options || [];
 
   return (
-    <div className={`lg:mx-2 mt-5 flex flex-col w-100 lg:w-39 ${className}`}>
-      <label className="text-black text-xs mb-2">
+    <div className={`lg:mx-2 mt-5 flex flex-col w-full lg:w-39 ${className}`}>
+      <label className="text-white text-xs mb-2">
         {label}
         {required && <span className="text-red-500 ml-1">*</span>}
       </label>
       <select
-        className={`input-field ${
+        className={`input-field--select ${
           disabled || isLoading ? "opacity-50 cursor-not-allowed" : ""
         }`}
         name={name}

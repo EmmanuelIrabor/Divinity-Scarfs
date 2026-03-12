@@ -1,18 +1,28 @@
 .input-field {
-  border: 1px solid $color-black;
+  border-bottom: 1px solid $color-white;
+  border-top:none;
+  border-right:none;
+  border-left:none;
   background: none;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   // border-radius: 4px;
   font-size: 0.5rem;
-  color: $color-black;
+  color: $color-white;
+  border-radius: 0;
 
   &:focus {
-    border-color: $color-alt;
+    border-bottom-color: $color-alt;
+    border-top: none;
+    border-left: none;
+    border-right:none;
     outline: none;
-    box-shadow: 0 0 5px rgba($color-alt, 0.5);
+    // box-shadow: 0 0 5px rgba($color-alt, 0.5);
   }
+
+
+  
 
   &:-webkit-autofill,
   &:-webkit-autofill:hover,
@@ -26,6 +36,38 @@
   &:autofill {
     background: transparent !important;
     color: $color-black !important;
+  }
+}
+
+.input-field--select {
+  border-bottom: 1px solid $color-white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 0.5rem;
+  color: $color-white;
+  border-radius:0;
+
+  option {
+    color: $color-black;
+    background: $color-white;
+
+    &:first-child {
+      color: $color-white;
+      background: transparent;
+    }
+  }
+
+  &:focus {
+    border-bottom-color: $color-alt;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
   }
 }
 .input-field__control {
