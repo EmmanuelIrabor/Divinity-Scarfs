@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { ReactNode, useEffect, useState } from "react";
-import { getRouteTransition, normalizeRoute } from "@/lib/route-transitions";
+import { getRouteTransition, normalizeRoute } from "../lib/route-transitions";
 
 interface RouteTransitionProps {
   children: ReactNode;
