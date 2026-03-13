@@ -68,7 +68,7 @@ export default function ThankYou() {
       >
         <button
           className="primary-btn rounded"
-          onClick={() => router.push("/Home")}
+          onClick={() => router.push("../Divinity-Scarfs/Home")}
         >
           Return
         </button>

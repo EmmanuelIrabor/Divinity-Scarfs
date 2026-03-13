@@ -53,7 +53,7 @@ export default function PaymentFailed() {
       >
         <button
           className="primary-btn rounded"
-          onClick={() => router.push("/Checkout")}
+          onClick={() => router.push("../Divinity-Scarfs/Checkout")}
         >
           Retry
         </button>

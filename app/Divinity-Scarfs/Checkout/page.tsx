@@ -430,7 +430,7 @@ export default function Checkout() {
         {/* Show PayPal for non-African regions */}
         {!isAfrica && (
           <Link
-            href={"/PaypalCheckout"}
+            href={"../Divinity-Scarfs/PaypalCheckout"}
             className={`w-full lg:w-auto px-10 lg:px-6 py-3 lg:py-2 text-sm lg:text-base ${
               isFormValid
                 ? "primary-btn"
