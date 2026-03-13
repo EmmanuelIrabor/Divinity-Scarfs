@@ -53,7 +53,7 @@ export default function PayPalButton({ amount }: { amount: string }) {
             try {
               await actions.order.capture();
 
-              router.push("/ThankYou");
+              router.push("../Divinity-Scarfs/ThankYou");
             } catch (err) {
               router.push("/PaymentFailed");
             }
