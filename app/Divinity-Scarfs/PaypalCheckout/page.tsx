@@ -13,7 +13,7 @@ export default function PaypalCheckout() {
     <div className="w-full h-screen flex flex-col">
       <div className="flex justify-start items-start px-8 mt-4">
         {" "}
-        <Link href={"/Checkout"}>
+        <Link href={"../Divinity-Scarfs/Checkout/"}>
           {" "}
           <div className="flex gap-2 text-black items-center">
             <CaretDoubleLeft /> Back

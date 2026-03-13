@@ -74,9 +74,7 @@ export default function Home() {
       <Brandlabels />
 
       <div className="hidden xl:flex justify-end px-10 mt-17 mb-5">
-        {/* <button className="primary-btn" onClick={() => router.push("/Shop")}>
-          Shop Now
-        </button> */}
+     
         <Link className="primary-btn" href="../Divinity-Scarfs/Shop/">
           Shop Now
         </Link>
@@ -121,10 +119,8 @@ export default function Home() {
       </div>
 
       <div className="xl:hidden absolute bottom-0 left-1/2 -translate-x-1/2">
-        {/* <button className="primary-btn" onClick={() => router.push("/Shop")}>
-          Shop Now
-        </button> */}
-        <Link className="primary-btn" href="">
+       
+        <Link className="primary-btn" href="../Divinity-Scarfs/Shop/">
           Shop Now
         </Link>
       </div>

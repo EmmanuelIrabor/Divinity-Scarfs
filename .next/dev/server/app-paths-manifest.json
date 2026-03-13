@@ -1,16 +1,6 @@
 {
-  "/Divinity-Scarfs/About/page": "app/Divinity-Scarfs/About/page.js",
-  "/Divinity-Scarfs/Cart/page": "app/Divinity-Scarfs/Cart/page.js",
-  "/Divinity-Scarfs/Checkout/page": "app/Divinity-Scarfs/Checkout/page.js",
-  "/Divinity-Scarfs/Collection/page": "app/Divinity-Scarfs/Collection/page.js",
-  "/Divinity-Scarfs/Contact/page": "app/Divinity-Scarfs/Contact/page.js",
   "/Divinity-Scarfs/Home/page": "app/Divinity-Scarfs/Home/page.js",
-  "/Divinity-Scarfs/More/page": "app/Divinity-Scarfs/More/page.js",
-  "/Divinity-Scarfs/PaymentFailed/page": "app/Divinity-Scarfs/PaymentFailed/page.js",
-  "/Divinity-Scarfs/Shop/Scarf/[name]/page": "app/Divinity-Scarfs/Shop/Scarf/[name]/page.js",
   "/Divinity-Scarfs/Shop/page": "app/Divinity-Scarfs/Shop/page.js",
-  "/Divinity-Scarfs/ThankYou/page": "app/Divinity-Scarfs/ThankYou/page.js",
-  "/Divinity-Scarfs/api/subscribe/route": "app/Divinity-Scarfs/api/subscribe/route.js",
   "/Divinity-Scarfs/page": "app/Divinity-Scarfs/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
