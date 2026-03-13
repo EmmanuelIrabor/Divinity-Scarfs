@@ -40,7 +40,7 @@ export function usePayment({ formData, cartScarfs, calculateTotal }: any) {
         email: formData.email,
         amount: total * 100,
         reference: orderId,
-        callback_url: `${window.location.origin}/ThankYou`,
+        callback_url: `${window.location.origin}../Divinity-Scarfs/ThankYou`,
         metadata: {
           customer_name: `${formData.firstName} ${formData.lastName}`,
           order_id: orderId,

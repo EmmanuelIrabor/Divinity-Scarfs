@@ -2,7 +2,8 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-// import BackgroundAbout from "@/components/Background-About";
+
+import BackgroundNone from "@/app/Divinity-Scarfs/components/BackgroundNone";
 import { ArrowRight } from "phosphor-react";
 // import barba from "@barba/core";
 
@@ -10,8 +11,8 @@ export default function Preloader() {
   const router = useRouter();
   return (
 
-  
-
+  <>
+<BackgroundNone/>
    
     <div
       className="min-h-screen w-full flex flex-col justify-between"
@@ -69,6 +70,8 @@ export default function Preloader() {
         </Link>
       </motion.div>
     </div>
+
+    </>
 
    
   );

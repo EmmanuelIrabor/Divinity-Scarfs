@@ -28391,3 +28391,5402 @@ styles\main.scss 5:9  root stylesheet
 
 
 
+[00:29:50.127] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.130] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.133] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.137] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.143] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.147] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.150] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.245] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.248] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.252] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.258] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.261] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.266] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.268] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.328] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.335] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.341] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.345] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.352] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.359] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.362] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.415] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.423] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.429] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.436] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.445] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.452] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.461] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.547] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.550] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.554] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.559] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.562] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.565] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.569] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.630] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.635] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.642] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.647] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.651] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.657] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.660] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.706] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.708] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.710] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.713] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.715] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.717] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.719] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.762] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.763] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.765] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.766] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.771] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.774] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.776] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.826] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.829] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.830] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.833] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.835] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.842] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.845] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.893] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.897] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.900] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.906] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.910] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.912] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.916] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:50.966] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:50.969] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:50.975] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:50.982] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:50.986] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:50.991] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:50.994] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:29:51.042] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:29:51.044] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:29:51.045] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:29:51.049] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:29:51.051] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:29:51.052] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:29:51.058] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:30:44.900] Server  LOG      ✓ Compiled in 400ms
+[00:33:59.406] Server  LOG      ✓ Compiled in 392ms
+[00:34:02.050] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:02.054] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:02.067] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:02.085] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:02.090] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:02.092] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:02.100] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:05.665] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:05.667] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:05.669] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:05.673] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:05.684] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:05.687] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:05.689] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:06.583] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:06.586] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:06.588] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:06.593] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:06.597] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:06.599] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:06.602] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.356] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.363] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.365] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.372] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.376] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.380] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.383] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.385] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.387] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.390] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.394] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.396] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.400] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.401] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.402] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.404] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.406] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.411] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.414] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.416] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.419] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.420] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.422] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.426] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.429] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.431] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.433] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.435] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.436] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.439] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.443] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.445] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.446] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.449] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.451] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.452] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.455] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.457] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.460] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.463] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.465] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.467] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.468] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.470] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.473] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.477] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.479] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.481] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.483] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.484] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.487] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.490] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.494] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.496] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.499] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.501] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.502] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.506] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.509] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.512] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.513] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.516] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.517] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.518] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.521] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.523] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.527] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.528] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.531] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.533] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.534] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.537] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.539] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.543] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.548] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.550] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.551] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.555] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:07.556] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:07.560] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:07.564] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:07.566] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:07.568] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:07.571] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:07.752] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:13.334] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:13.339] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:13.346] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:13.349] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:13.352] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:13.354] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:13.356] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:13.681] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:13.684] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:13.688] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:13.699] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:13.702] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:13.705] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:13.714] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.276] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.281] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.285] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.299] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.310] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.316] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.321] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.324] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.329] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.333] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.345] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.348] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.355] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.359] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.360] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.362] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.365] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.368] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.370] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.377] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.380] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.380] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.384] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.386] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.391] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.395] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.397] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.400] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.401] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.404] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.411] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.414] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.418] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.420] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.425] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.428] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.432] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.435] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.437] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.445] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.449] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.452] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.453] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.456] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.465] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.477] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.482] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.501] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.548] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.549] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.550] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.551] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.554] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.561] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.563] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.564] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.565] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.566] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.568] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.570] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.572] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.579] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.580] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.581] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.582] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.584] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.586] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.588] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.593] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.595] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.596] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.597] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.599] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.601] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.603] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.604] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.605] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.608] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:14.610] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:14.612] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:14.614] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:14.615] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:14.617] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:14.618] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:14.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:16.253] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.255] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.263] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.265] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.267] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.270] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.277] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.627] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.633] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.637] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.646] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.648] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.651] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.654] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.838] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.843] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.845] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.849] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.851] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.854] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.861] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.863] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.866] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.869] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.871] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.876] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.878] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.881] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.882] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.884] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.886] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.894] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.898] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.899] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.902] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.903] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.905] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.909] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.911] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.913] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.915] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.918] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.919] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.927] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.930] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.933] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.935] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.939] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.942] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.943] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.946] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.948] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.950] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.953] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.962] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.965] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.967] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.969] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:16.972] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:16.979] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:16.984] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:16.986] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:16.988] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:16.996] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:16.999] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:17.001] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:17.004] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:17.008] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:17.010] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:17.013] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:17.014] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:17.016] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:17.019] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:17.027] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:17.030] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:17.033] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:17.035] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:17.036] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:17.038] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:17.043] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:17.046] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:17.047] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:17.049] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:17.052] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:17.053] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:17.058] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:17.059] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:17.062] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:17.065] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:17.067] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:17.069] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:17.070] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:17.078] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:17.081] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:17.084] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:17.086] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:17.088] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:17.096] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:17.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:21.942] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:21.944] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:21.946] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:21.949] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:21.952] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:21.956] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:21.958] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:24.645] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:24.646] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:24.648] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:24.652] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:24.656] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:24.659] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:24.661] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
+[00:34:26.282] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+
+[00:34:26.284] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "variables";
+
+
+styles\main.scss 1:9  root stylesheet
+
+
+
+[00:34:26.288] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:1:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1 | @import "mixins";
+
+
+styles\main.scss 2:9  root stylesheet
+
+
+
+[00:34:26.294] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 10, column 9 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/_mixins.scss:10:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.get instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+10 |   $size: map-get($breakpoints, $breakpoint);
+
+
+styles\_mixins.scss 11:10  respond()
+styles\_base.scss 37:3     @import
+styles\main.scss 4:9       root stylesheet
+
+
+
+[00:34:26.297] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 2, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:2:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+2 | @import "fonts";
+
+
+styles\main.scss 3:9  root stylesheet
+
+
+
+[00:34:26.299] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 3, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:3:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+3 | @import "base";
+
+
+styles\main.scss 4:9  root stylesheet
+
+
+
+[00:34:26.301] Server  WARN     ⚠ ./styles/main.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 4, column 8 of file:///C:/Users/Emmanuel/Desktop/Divinity-Scarfs/styles/main.scss:4:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+4 | @import "button";
+
+
+styles\main.scss 5:9  root stylesheet
+
+
+
