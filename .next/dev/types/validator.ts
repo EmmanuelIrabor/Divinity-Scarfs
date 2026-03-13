@@ -47,136 +47,136 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 }
 
 
-// Validate ../../../app/About/page.tsx
+// Validate ../../../app/Divinity-Scarfs/About/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/About">> = Specific
-  const handler = {} as typeof import("../../../app/About/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/About">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/About/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Blank/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Cart/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Blank">> = Specific
-  const handler = {} as typeof import("../../../app/Blank/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Cart">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Cart/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Cart/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Checkout/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Cart">> = Specific
-  const handler = {} as typeof import("../../../app/Cart/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Checkout">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Checkout/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Checkout/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Collection/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Checkout">> = Specific
-  const handler = {} as typeof import("../../../app/Checkout/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Collection">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Collection/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Collection/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Contact/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Collection">> = Specific
-  const handler = {} as typeof import("../../../app/Collection/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Contact">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Contact/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Contact/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Home/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Contact">> = Specific
-  const handler = {} as typeof import("../../../app/Contact/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Home">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Home/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Home/page.tsx
+// Validate ../../../app/Divinity-Scarfs/More/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Home">> = Specific
-  const handler = {} as typeof import("../../../app/Home/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/More">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/More/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/More/page.tsx
+// Validate ../../../app/Divinity-Scarfs/PaymentFailed/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/More">> = Specific
-  const handler = {} as typeof import("../../../app/More/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/PaymentFailed">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/PaymentFailed/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/PaymentFailed/page.tsx
+// Validate ../../../app/Divinity-Scarfs/PaypalCheckout/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/PaymentFailed">> = Specific
-  const handler = {} as typeof import("../../../app/PaymentFailed/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/PaypalCheckout">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/PaypalCheckout/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/PaypalCheckout/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Shop/Collection/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/PaypalCheckout">> = Specific
-  const handler = {} as typeof import("../../../app/PaypalCheckout/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Shop/Collection">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Shop/Collection/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Shop/Collection/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Shop/Scarf/[name]/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Shop/Collection">> = Specific
-  const handler = {} as typeof import("../../../app/Shop/Collection/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Shop/Scarf/[name]">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Shop/Scarf/[name]/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Shop/Scarf/[name]/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Shop/Scarf/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Shop/Scarf/[name]">> = Specific
-  const handler = {} as typeof import("../../../app/Shop/Scarf/[name]/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Shop/Scarf">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Shop/Scarf/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Shop/Scarf/page.tsx
+// Validate ../../../app/Divinity-Scarfs/Shop/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Shop/Scarf">> = Specific
-  const handler = {} as typeof import("../../../app/Shop/Scarf/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/Shop">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/Shop/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/Shop/page.tsx
+// Validate ../../../app/Divinity-Scarfs/ThankYou/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/Shop">> = Specific
-  const handler = {} as typeof import("../../../app/Shop/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs/ThankYou">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/ThankYou/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/ThankYou/page.tsx
+// Validate ../../../app/Divinity-Scarfs/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/ThankYou">> = Specific
-  const handler = {} as typeof import("../../../app/ThankYou/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/Divinity-Scarfs">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -191,28 +191,28 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../../app/api/currency/route.ts
+// Validate ../../../app/Divinity-Scarfs/api/currency/route.ts
 {
-  type __IsExpected<Specific extends RouteHandlerConfig<"/api/currency">> = Specific
-  const handler = {} as typeof import("../../../app/api/currency/route.js")
+  type __IsExpected<Specific extends RouteHandlerConfig<"/Divinity-Scarfs/api/currency">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/api/currency/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/api/send-email/route.ts
+// Validate ../../../app/Divinity-Scarfs/api/send-email/route.ts
 {
-  type __IsExpected<Specific extends RouteHandlerConfig<"/api/send-email">> = Specific
-  const handler = {} as typeof import("../../../app/api/send-email/route.js")
+  type __IsExpected<Specific extends RouteHandlerConfig<"/Divinity-Scarfs/api/send-email">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/api/send-email/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/api/subscribe/route.ts
+// Validate ../../../app/Divinity-Scarfs/api/subscribe/route.ts
 {
-  type __IsExpected<Specific extends RouteHandlerConfig<"/api/subscribe">> = Specific
-  const handler = {} as typeof import("../../../app/api/subscribe/route.js")
+  type __IsExpected<Specific extends RouteHandlerConfig<"/Divinity-Scarfs/api/subscribe">> = Specific
+  const handler = {} as typeof import("../../../app/Divinity-Scarfs/api/subscribe/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

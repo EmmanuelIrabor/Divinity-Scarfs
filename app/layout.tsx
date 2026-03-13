@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../styles/main.scss";
-import LenisProvider from "../components/Lenis";
-import RouteTransition from "@/components/RouteTransitions";
-import RegionalProvider from "@/components/RegionalProvider";
+import LenisProvider from "@/app/Divinity-Scarfs/components/Lenis";
+import RouteTransition from "@/app/Divinity-Scarfs/components/RouteTransitions";
+import RegionalProvider from "@/app/Divinity-Scarfs/components/RegionalProvider";
 // import BarbaProvider from "../components/Barba";
 
 const geistSans = Geist({
@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://divinityscarfs.vercel.app"),
-  title: "Divinity Scarfs",
+  title: "Lowal Studios - Divinity Scarfs",
   description: "An Exclusive Foulard Collection",
 
   icons: {
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     apple: "/images/logo.png",
   },
   openGraph: {
-    title: "Divinity Scarfs",
+    title: "Lowal Studios - Divinity Scarfs",
     description: "An Exclusive Foulard Collection",
     images: ["/images/preview-bg.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Divinity Scarfs",
+    title: "Lowal Studios - Divinity Scarfs",
     description: "An Exclusive Foulard Collection",
     images: ["/images/preview-bg.png"],
   },

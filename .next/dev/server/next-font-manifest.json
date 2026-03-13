@@ -1,34 +1,42 @@
 {
   "app": {
-    "[project]/app/About/page": [
+    "[project]/app/Divinity-Scarfs/About/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Cart/page": [
+    "[project]/app/Divinity-Scarfs/Cart/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Checkout/page": [
+    "[project]/app/Divinity-Scarfs/Checkout/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Collection/page": [
+    "[project]/app/Divinity-Scarfs/Collection/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Home/page": [
+    "[project]/app/Divinity-Scarfs/Contact/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/More/page": [
+    "[project]/app/Divinity-Scarfs/Home/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Shop/Scarf/[name]/page": [
+    "[project]/app/Divinity-Scarfs/More/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/app/Shop/page": [
+    "[project]/app/Divinity-Scarfs/Shop/Scarf/[name]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/app/Divinity-Scarfs/Shop/page": [
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/app/Divinity-Scarfs/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],

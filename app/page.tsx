@@ -2,11 +2,17 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+// import BackgroundAbout from "@/components/Background-About";
+import { ArrowRight } from "phosphor-react";
 // import barba from "@barba/core";
 
 export default function Preloader() {
   const router = useRouter();
   return (
+
+  
+
+   
     <div
       className="min-h-screen w-full flex flex-col justify-between"
       data-barba="container"
@@ -15,7 +21,7 @@ export default function Preloader() {
       <div></div>
 
       <div className="flex items-center justify-center w-full max-w-6xl mx-auto px-6">
-        <div className="h-[1px] bg-black w-[60px] sm:flex-1 sm:w-auto" />
+       
 
         <motion.div
           className="mx-6 text-center"
@@ -24,26 +30,31 @@ export default function Preloader() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1
-            className="font-bold text-[20px] sm:text-[40px] text-black tracking-wide"
+            className="comforter text-6xl sm:text-8xl text-white tracking-wide"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            DIVINITY SCARFS
+            Welcome to lowal studios
           </motion.h1>
 
-          <motion.h2
-            className="comforter text-[30px] sm:text-[60px] text-black leading-none mt-2"
+          <div className="flex justify-center">
+             <motion.h2
+            className=" text-white leading-none mt-2 text-sm w-lg text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            An Exclusive Foulard Collection
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos provident odit dolor, natus assumenda quia iste vitae possimus exercitationem sint beatae dolorem sunt voluptatibus blanditiis ea consectetur culpa veniam error.
           </motion.h2>
+
+          
+          </div>
+           
         </motion.div>
 
-        {/* Right Line */}
-        <div className="h-[1px] bg-black w-[60px] sm:flex-1 sm:w-auto" />
+       
+       
       </div>
 
       {/* Bottom Section */}
@@ -53,10 +64,12 @@ export default function Preloader() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
       >
-        <Link className="primary-btn rounded" href="/Home">
-          Explore
+        <Link className="bg-white/10 backdrop-blur-md px-5 py-1 rounded flex flex-row gap-1 items-center text-xs" href="/Divinity-Scarfs">
+         View Collection <ArrowRight />
         </Link>
       </motion.div>
     </div>
+
+   
   );
 }
